@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://b46vhhfxnb566"]
+
+[ext_resource type="Script" path="res://Item/Item_Data.gd" id="1_72txb"]
+[ext_resource type="Texture2D" uid="uid://5b0aqh75gyr4" path="res://Item/ItemAtlas'/ItemAtlas'Sprites/16x16/Loot and Treasure.png" id="2_rxcvr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1ey5w"]
+atlas = ExtResource("2_rxcvr")
+region = Rect2(192, 464, 16, 16)
+
+[resource]
+script = ExtResource("1_72txb")
+name = "Stick"
+description = "A stick for crafting."
+stackable = true
+texture = SubResource("AtlasTexture_1ey5w")
+type = "Material"
+rarity = "Common"

@@ -1,0 +1,124 @@
+{
+	"categories": [
+		{
+			"uuid": "65498535-f6bf-4738-aa15-26cee9a44dda",
+			"title": "Task",
+			"color": "964e58"
+		}
+	],
+	"stages": [
+		{
+			"uuid": "71dc001b-d161-423b-a10e-d61c2032610d",
+			"title": "Todo",
+			"tasks": [
+				"050ccf2f-8e63-42ef-b455-c0fba45d786f",
+				"1601fe95-33d3-4409-8eda-c9237c51d174",
+				"55d37cce-f697-42b0-a51f-51894cdaefc7"
+			]
+		},
+		{
+			"uuid": "2bf0ed6e-c093-435b-b1ec-770ef359ed51",
+			"title": "Doing",
+			"tasks": [
+				"58ef0817-c740-4e71-868c-2c4f5df7ee10"
+			]
+		},
+		{
+			"uuid": "900d070b-7eb2-4978-beec-41c78e51cbfd",
+			"title": "Done",
+			"tasks": [
+				"d36768a1-b134-4cd7-8df9-77c1a088b75a",
+				"d32e4d49-86f9-47e1-96da-231fccbc5782",
+				"bad6cae1-eb7e-4971-964b-23bcd00a4df5",
+				"aca4e712-ea2e-4101-a079-7f8048f519ef",
+				"94cb5983-8e52-4ba1-a196-9aa4e29e8eec",
+				"73bba6c9-e7d1-47c7-9117-84da396fe9bf"
+			]
+		}
+	],
+	"tasks": [
+		{
+			"uuid": "bad6cae1-eb7e-4971-964b-23bcd00a4df5",
+			"title": "Crafting System Changes Update 2",
+			"description": "Second Update:\n\n    We tackled the problem of stackable items being placed in new slots when crafted, instead of merging with existing stacks.\n    The craft function was modified to first try to merge the crafted item with an existing stack of the same item, if possible.\n    It checks for slots that can fully merge or partially merge with the crafted item using the can_fully_merge_with, fully_merge_with, and can_merge_with functions from the SlotData class.\n    If a compatible stack is found, it merges the crafted item with that stack.\n    If no compatible stack is found, or if merging would exceed the MAX_STACK_SIZE, it creates a new slot for the crafted item in the first available empty slot.\n    A temporary SlotData instance was created to pass to the merge-related functions, as they expect a SlotData argument instead of an ItemData instance.\n\n",
+			"category": "65498535-f6bf-4738-aa15-26cee9a44dda",
+			"steps": []
+		},
+		{
+			"uuid": "d32e4d49-86f9-47e1-96da-231fccbc5782",
+			"title": "Crafting System Changes Update 1",
+			"description": "First Update:\n\n    We addressed an issue where the craft function was reducing the quantity of all slots containing the required item, instead of just the first slot.\n    The craft function was updated to find the first slot containing the required item and reduce its quantity only.\n    A slot_found boolean variable was introduced to break out of the loop after finding the first slot with the required item.\n\n",
+			"category": "65498535-f6bf-4738-aa15-26cee9a44dda",
+			"steps": []
+		},
+		{
+			"uuid": "d36768a1-b134-4cd7-8df9-77c1a088b75a",
+			"title": "Crafting System Changes Init Code.",
+			"description": "Initial Code:\n\n    The initial code you provided was responsible for creating buttons for each crafting recipe and handling the crafting process.\n    It loaded crafting recipes from .tres files in the res://Crafting/Recipes/ directory.\n    The can_craft function checked if the player's inventory had enough items to craft a given recipe.\n    The craft function removed the required items from the player's inventory and added the crafted item to the first available empty slot.\n\n",
+			"category": "65498535-f6bf-4738-aa15-26cee9a44dda",
+			"steps": []
+		},
+		{
+			"uuid": "aca4e712-ea2e-4101-a079-7f8048f519ef",
+			"title": "Crafting System Changes Update 3",
+			"description": "Handling Crafted Item Quantities:\n\n    A new property crafted_quantity was introduced in the CraftingRecipe class to specify the number of items to be crafted from that recipe.\n    The craft function was updated to initialize crafted_slot_data.quantity with recipe.crafted_quantity instead of 1.\n    When merging the crafted items with an existing compatible slot, it now increments the slot's quantity by recipe.crafted_quantity instead of 1.\n    When creating a new slot for the crafted items, it sets crafted_slot_data.quantity to recipe.crafted_quantity before assigning it to the empty slot.\n\nHandling Max Stack Size:\n\n    The updated craft function addresses the issue of exceeding the MAX_STACK_SIZE when merging crafted items with an existing stack.\n    It initializes a remaining_quantity variable with recipe.crafted_quantity.\n    It iterates through the inventory slots and checks if the slot contains the same item as the crafted_item.\n    If a compatible slot is found, it calculates the merge_quantity as the minimum of remaining_quantity and the available space in the slot (MAX_STACK_SIZE - slot_data.quantity).\n    It adds the merge_quantity to the slot's quantity and subtracts it from remaining_quantity.\n    If remaining_quantity becomes 0, it means all the crafted items have been merged with existing slots, so it breaks out of the loop.\n\nHandling Remaining Crafted Items:\n\n    After the loop, if remaining_quantity is still greater than 0, it means there are crafted items that couldn't be merged with existing slots.\n    It tries to find the first available empty slot to create a new slot for the remaining crafted items.\n    If an empty slot is found, it sets the quantity of crafted_slot_data to remaining_quantity and assigns it to the empty slot.\n    If no empty slot is found, it prints a message \"Discarded remaining quantity: \" to indicate that the remaining crafted items were discarded due to lack of space in the inventory.\n\n",
+			"category": "65498535-f6bf-4738-aa15-26cee9a44dda",
+			"steps": []
+		},
+		{
+			"uuid": "94cb5983-8e52-4ba1-a196-9aa4e29e8eec",
+			"title": "Crafting System Changes Update 4",
+			"description": " Checking for Stackable Items:\n        Before attempting to merge the crafted items with existing slots, the function checks if crafted_slot_data.item_data.stackable is true.\n        If the crafted item is stackable, it proceeds with the existing logic of merging with compatible slots and creating a new slot for any remaining quantity.\n\n    Handling Non-Stackable Items:\n        If the crafted item is not stackable, it enters a new loop that iterates recipe.crafted_quantity times.\n        Inside this loop, it finds the first available empty slot in the inventory.\n        If an empty slot is found, it creates a new SlotData instance with quantity set to 1 and assigns it to that slot.\n        If no empty slot is found, it prints a message \"Discarded crafted item due to lack of space\".\n\n    Existing Logic for Stackable Items:\n        The existing logic for merging crafted items with compatible slots and creating a new slot for any remaining quantity remains unchanged.\n        It initializes a remaining_quantity variable with recipe.crafted_quantity.\n        It iterates through the inventory slots and checks if the slot contains the same item as the crafted_item.\n        If a compatible slot is found, it calculates the merge_quantity as the minimum of remaining_quantity and the available space in the slot (MAX_STACK_SIZE - slot_data.quantity).\n        It adds the merge_quantity to the slot's quantity and subtracts it from remaining_quantity.\n        If remaining_quantity becomes 0, it means all the crafted items have been merged with existing slots, so it breaks out of the loop.\n        After the loop, if remaining_quantity is still greater than 0, it means there are crafted items that couldn't be merged with existing slots.\n        It tries to find the first available empty slot to create a new slot for the remaining crafted items.\n        If an empty slot is found, it sets the quantity of crafted_slot_data to remaining_quantity and assigns it to the empty slot.\n        If no empty slot is found, it prints a message \"Discarded remaining quantity: \" to indicate that the remaining crafted items were discarded due to lack of space in the inventory.\n",
+			"category": "65498535-f6bf-4738-aa15-26cee9a44dda",
+			"steps": []
+		},
+		{
+			"uuid": "73bba6c9-e7d1-47c7-9117-84da396fe9bf",
+			"title": "Fix merging stacks",
+			"description": "We need to fix merging stacks so that rather then swapping slotdata if it cant fully merge , we merge the amount we are able to without exceeding that slots max_stack_size and return the remaining amount",
+			"category": "65498535-f6bf-4738-aa15-26cee9a44dda",
+			"steps": []
+		},
+		{
+			"uuid": "58ef0817-c740-4e71-868c-2c4f5df7ee10",
+			"title": "implement skills, progression and skillmanager",
+			"description": "Skill System\n\n    Create a new Skill resource script that defines the properties of a skill, such as:\n        name: The name of the skill (e.g., \"Woodcutting\", \"Mining\", \"Smithing\").\n        description: A brief description of the skill.\n        current_level: The current level of the skill.\n        current_experience: The current experience points accumulated for the skill.\n        experience_required: An array or dictionary that maps skill levels to the required experience points for that level.\n    Create a SkillManager node or singleton that manages all the skills in the game.\n        This manager should have a dictionary or array to store all the available skills.\n        It should have functions to award experience to a specific skill and handle level-up logic.\n        It should also have a way to retrieve the current level and experience for a given skill.\n\nSkill Progression\n\n    Determine the actions or events that should award experience to specific skills.\n        For example, chopping down a tree could award experience to the \"Woodcutting\" skill, mining an ore could award experience to the \"Mining\" skill, and crafting an item could award experience to the corresponding crafting skill (e.g., \"Smithing\" for metalworking, \"Tailoring\" for clothing).\n    Implement a way to hook into these actions or events and call the SkillManager to award experience to the relevant skill(s).\n        This could be done by creating signals or events that the relevant systems (e.g., resource gathering, crafting) can emit when certain actions occur.\n        The SkillManager should listen for these signals or events and award experience accordingly.\n\n",
+			"category": "65498535-f6bf-4738-aa15-26cee9a44dda",
+			"steps": []
+		},
+		{
+			"uuid": "050ccf2f-8e63-42ef-b455-c0fba45d786f",
+			"title": "implement item tiers and reflect progression from skills",
+			"description": "Item Tiers\n\n    Create a new ItemTier resource script that defines the properties of an item tier, such as:\n        name: The name of the tier (e.g., \"Common\", \"Uncommon\", \"Rare\").\n        skill_requirements: A dictionary or array that maps skills to the required level for that tier.\n        crafting_recipes: An array of CraftingRecipe resources that are available at this tier.\n        harvestable_resources: An array of resources that can be harvested at this tier (e.g., different types of trees, ores).\n    Modify the ItemData resource script to include a tier property that references an ItemTier resource.\n    In the CraftingSystem, when creating recipe buttons, check the skill requirements for the recipe's tier and only enable the button if the player meets those requirements.\n    Implement a resource gathering system that checks the player's skill levels and only allows harvesting resources that are available at the player's current tier.\n\n",
+			"category": "65498535-f6bf-4738-aa15-26cee9a44dda",
+			"steps": []
+		},
+		{
+			"uuid": "1601fe95-33d3-4409-8eda-c9237c51d174",
+			"title": "create a UI for the skills.",
+			"description": "User Interface\n\n    Create a new UI panel or window to display the player's skills, their current levels, and experience progress.\n    This UI could also show the available item tiers and their requirements, as well as the recipes and resources available at the player's current tier.\n\n",
+			"category": "65498535-f6bf-4738-aa15-26cee9a44dda",
+			"steps": []
+		},
+		{
+			"uuid": "55d37cce-f697-42b0-a51f-51894cdaefc7",
+			"title": "Example of Tier'd experience for skills",
+			"description": "extends Node\n\nsignal tree_chopped(tree_type)\n\nfunc _ready() -> void:\n    var skill_manager = get_node(\"/root/SkillManager\")\n    connect(\"tree_chopped\", skill_manager._on_tree_chopped)\n\nfunc _on_tree_chopped(tree_type: String) -> void:\n    var experience_awarded = _get_experience_for_tree(tree_type)\n    skill_manager.award_experience(\"Woodcutting\", experience_awarded)\n\nfunc _get_experience_for_tree(tree_type: String) -> int:\n    # Implement logic to determine the experience awarded based on the tree type\n    match tree_type:\n        \"Oak\":\n            return 25\n        \"Maple\":\n            return 35\n        \"Willow\":\n            return 45\n        # Add more tree types and their corresponding experience values\n        _:\n            return 10 # Default experience for unknown tree types",
+			"category": "65498535-f6bf-4738-aa15-26cee9a44dda",
+			"steps": []
+		}
+	],
+	"layout": {
+		"columns": [
+			[
+				"71dc001b-d161-423b-a10e-d61c2032610d"
+			],
+			[
+				"2bf0ed6e-c093-435b-b1ec-770ef359ed51"
+			],
+			[
+				"900d070b-7eb2-4978-beec-41c78e51cbfd"
+			]
+		]
+	}
+}

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="CraftingRecipe" load_steps=8 format=3 uid="uid://dwcy0ojo4fxb5"]
+
+[ext_resource type="Script" path="res://Crafting/CraftingRecipeRequirement.gd" id="1_a2mnk"]
+[ext_resource type="Resource" uid="uid://dkkdjlafqgnsw" path="res://Item/Items/ItemTypes/Equip/Wooden_Sword.tres" id="1_gtdeh"]
+[ext_resource type="Script" path="res://Crafting/CraftingRecipe.gd" id="2_0qw0p"]
+[ext_resource type="Resource" uid="uid://b46vhhfxnb566" path="res://Item/Items/ItemTypes/Materials/Stick.tres" id="3_cesd4"]
+[ext_resource type="Resource" uid="uid://b6ic3vp866s3u" path="res://Item/Items/ItemTypes/Materials/Iron_Bar.tres" id="4_kmud8"]
+
+[sub_resource type="Resource" id="Resource_h25pb"]
+script = ExtResource("1_a2mnk")
+item_data = ExtResource("3_cesd4")
+quantity = 4
+
+[sub_resource type="Resource" id="Resource_gg3fm"]
+script = ExtResource("1_a2mnk")
+item_data = ExtResource("4_kmud8")
+quantity = 1
+
+[resource]
+script = ExtResource("2_0qw0p")
+crafted_item = ExtResource("1_gtdeh")
+crafted_quantity = 1
+requirements = Array[ExtResource("1_a2mnk")]([SubResource("Resource_h25pb"), SubResource("Resource_gg3fm")])

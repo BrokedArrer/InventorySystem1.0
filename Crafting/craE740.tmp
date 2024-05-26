@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://bubbb1fgvolje"]
+
+[ext_resource type="Script" path="res://Crafting/CraftingSystem.gd" id="1_f03t0"]
+
+[node name="CraftingSystem" type="Node"]
+script = ExtResource("1_f03t0")
+recipes = null
+
+[node name="RecipeButtonContainer" type="GridContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+columns = 3

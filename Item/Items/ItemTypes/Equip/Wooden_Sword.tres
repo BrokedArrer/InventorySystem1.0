@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="ItemDataEquip" load_steps=4 format=3 uid="uid://dkkdjlafqgnsw"]
+
+[ext_resource type="Script" path="res://Item/Items/ItemTypes/Equip/Item_Data_Equip.gd" id="1_wm554"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_tobnc"]
+load_path = "res://.godot/imported/spritesheet_16x16.png-4bee5581cff85eb5709fb6f2e32b1acf.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6cnrr"]
+atlas = SubResource("CompressedTexture2D_tobnc")
+region = Rect2(48, 336, 16, 16)
+
+[resource]
+script = ExtResource("1_wm554")
+name = "Wooden Sword"
+description = "A sword of Wood.
+"
+stackable = false
+texture = SubResource("AtlasTexture_6cnrr")
+type = "Weapon"
+rarity = "Common"

@@ -1,0 +1,446 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1716763373
+icon.svg::CompressedTexture2D::1593331976106167596::1716609671::1716609739::1::::<><>::
+::res://addons/::1716763104
+::res://addons/ColorPreview/::1716763104
+ColorHelper.gd::GDScript::-1::1716763104::0::1::::ColorHelper<>RefCounted<>::
+ColorPreview.gd::GDScript::-1::1716763104::0::1::::<>EditorPlugin<>::res://addons/ColorPreview/Picker.tscn<>res://addons/ColorPreview/ColorHelper.gd
+Picker.tscn::PackedScene::7946079549344240257::1716763104::0::1::::<><>::
+plugin.cfg::TextFile::-1::1716763104::0::1::::<><>::
+::res://addons/godot_owl/::1716763104
+godot_owl.gd::GDScript::-1::1716653750::0::1::::<>EditorPlugin<>::res://addons/godot_owl/module.tscn
+icon.png::CompressedTexture2D::7678547903667966919::1716653750::1716653750::1::::<><>::
+icon_paused.png::CompressedTexture2D::3611373457227152675::1716653750::1716653750::1::::<><>::
+logo.svg::CompressedTexture2D::7907084460842285019::1716653751::1716653751::1::::<><>::
+logo_square.png::CompressedTexture2D::3948626188589725275::1716653751::1716653751::1::::<><>::
+module.gd::GDScript::-1::1716653751::0::1::::<>MenuButton<>::res://addons/godot_owl/owl_settings.gd<>res://addons/godot_owl/window/window.tscn<>res://addons/godot_owl/window/statistics/statistics_control.tscn<>res://addons/godot_owl/window/settings/settings_control.tscn<>res://addons/godot_owl/icons/pause.png<>res://addons/godot_owl/icon_paused.png<>res://addons/godot_owl/icon.png<>res://addons/godot_owl/owl_utils.gd
+module.tscn::PackedScene::1142160750170139916::1716763104::0::1::::<><>::res://addons/godot_owl/module.gd<>uid://dhnstd2x5uiw2::::res://addons/godot_owl/icon.png
+owl_settings.gd::GDScript::-1::1716653751::0::1::::OwlSettings<>Node<>::
+owl_utils.gd::GDScript::-1::1716653751::0::1::::OwlUtils<>Node<>::
+plugin.cfg::TextFile::-1::1716653751::0::1::::<><>::
+::res://addons/godot_owl/icons/::1716653751
+calendar.png::CompressedTexture2D::4480156050594955266::1716653750::1716653751::1::::<><>::
+next.png::CompressedTexture2D::5960244074133836::1716653751::1716653751::1::::<><>::
+pause.png::CompressedTexture2D::5198457846222994336::1716653751::1716653751::1::::<><>::
+previous.png::CompressedTexture2D::6809685604536251247::1716653751::1716653751::1::::<><>::
+::res://addons/godot_owl/window/::1716653752
+window.tscn::PackedScene::2850308363807311336::1716653752::0::1::::<><>::res://addons/godot_owl/window/main/window.gd
+::res://addons/godot_owl/window/main/::1716653751
+window.gd::GDScript::-1::1716653751::0::1::::<>Window<>::
+window_control.tscn::PackedScene::1596923607610643204::1716653751::0::1::::<><>::
+::res://addons/godot_owl/window/settings/::1716653751
+settings_control.gd::GDScript::-1::1716653751::0::1::::<>Control<>::res://addons/godot_owl/window/settings/properties/boolean_property.tscn<>res://addons/godot_owl/owl_settings.gd
+settings_control.tscn::PackedScene::4426890357767410860::1716653751::0::1::::<><>::res://addons/godot_owl/window/settings/settings_control.gd
+::res://addons/godot_owl/window/settings/properties/::1716653751
+boolean_property.tscn::PackedScene::8868783459238052677::1716653751::0::1::::<><>::
+::res://addons/godot_owl/window/statistics/::1716653752
+daily_stats_item.tscn::PackedScene::844815198702982549::1716653751::0::1::::<><>::
+month_button.tscn::PackedScene::1396421933815002996::1716653752::0::1::::<><>::
+statistics_control.gd::GDScript::-1::1716653752::0::1::::<>Control<>::res://addons/godot_owl/window/statistics/daily_stats_item.tscn<>res://addons/godot_owl/window/statistics/month_view/day_item.tscn<>res://addons/godot_owl/window/statistics/month_button.tscn<>res://addons/godot_owl/window/statistics/month_view/day_not_in_month.tscn<>res://addons/godot_owl/window/statistics/day_view/day_chart.tscn<>res://addons/godot_owl/owl_utils.gd
+statistics_control.tscn::PackedScene::4753017990326465925::1716653752::0::1::::<><>::res://addons/godot_owl/window/statistics/statistics_control.gd<>uid://b43hrsa6iabio::::res://addons/godot_owl/icons/calendar.png<>uid://c4awr6hf83cep::::res://addons/godot_owl/icons/previous.png<>uid://c5ft8tu8asa::::res://addons/godot_owl/icons/next.png
+::res://addons/godot_owl/window/statistics/day_view/::1716653752
+chart_image.png::CompressedTexture2D::8534305810949963351::1716653751::1716653752::1::::<><>::
+day_chart.tscn::PackedScene::7874107136674842522::1716653752::0::1::::<><>::uid://dtuc1f6l0w8sp::::res://addons/godot_owl/window/statistics/day_view/chart_image.png
+grid.png::CompressedTexture2D::8045979460505449229::1716653752::1716653752::1::::<><>::
+::res://addons/godot_owl/window/statistics/month_view/::1716653752
+day_item.tscn::PackedScene::121496188017361512::1716653752::0::1::::<><>::
+day_not_in_month.tscn::PackedScene::7735055027936339421::1716653752::0::1::::<><>::
+::res://addons/kanban_tasks/::1716763104
+icon.svg::CompressedTexture2D::2584192313033160869::1716763104::1716763104::1::::<><>::
+plugin.cfg::TextFile::-1::1716763104::0::1::::<><>::
+plugin.gd::GDScript::-1::1716763104::0::1::::<><>::res://addons/kanban_tasks/standalone_plugin.gd<>res://addons/kanban_tasks/plugin_singleton/singletons.gd<>res://addons/kanban_tasks/view/shortcuts.gd<>res://addons/kanban_tasks/view/edit_context.gd<>res://addons/kanban_tasks/data/settings.gd<>res://addons/kanban_tasks/data/board.gd<>res://addons/kanban_tasks/data/layout.gd<>res://addons/kanban_tasks/data/task.gd<>res://addons/kanban_tasks/data/category.gd<>res://addons/kanban_tasks/data/stage.gd<>res://addons/kanban_tasks/view/board/board.tscn<>res://addons/kanban_tasks/view/board/board.gd<>res://addons/kanban_tasks/view/start/start.tscn<>res://addons/kanban_tasks/view/start/start.gd<>res://addons/kanban_tasks/view/documentation/documentation.tscn<>res://addons/kanban_tasks/icon.svg
+standalone_plugin.gd::GDScript::-1::1716763104::0::1::::<>EditorPlugin<>::
+::res://addons/kanban_tasks/data/::1716763104
+board.gd::GDScript::-1::1716763104::0::1::::<><>::res://addons/kanban_tasks/data/kanban_resource.gd<>res://addons/kanban_tasks/uuid/uuid.gd<>res://addons/kanban_tasks/data/category.gd<>res://addons/kanban_tasks/data/layout.gd<>res://addons/kanban_tasks/data/stage.gd<>res://addons/kanban_tasks/data/task.gd
+category.gd::GDScript::-1::1716763104::0::1::::<><>::res://addons/kanban_tasks/data/kanban_resource.gd
+kanban_resource.gd::GDScript::-1::1716763104::0::1::::<>RefCounted<>::
+layout.gd::GDScript::-1::1716763104::0::1::::<><>::res://addons/kanban_tasks/data/kanban_resource.gd
+settings.gd::GDScript::-1::1716763104::0::1::::<><>::res://addons/kanban_tasks/data/kanban_resource.gd
+stage.gd::GDScript::-1::1716763104::0::1::::<><>::res://addons/kanban_tasks/data/kanban_resource.gd
+step.gd::GDScript::-1::1716763104::0::1::::<><>::res://addons/kanban_tasks/data/kanban_resource.gd
+task.gd::GDScript::-1::1716763104::0::1::::<><>::res://addons/kanban_tasks/data/kanban_resource.gd<>res://addons/kanban_tasks/data/step.gd
+::res://addons/kanban_tasks/edit_label/::1716763104
+edit_label.gd::GDScript::-1::1716763104::0::1::::<>VBoxContainer<>::
+::res://addons/kanban_tasks/expand_button/::1716763104
+expand_button.gd::GDScript::-1::1716763104::0::1::::<>Button<>::
+::res://addons/kanban_tasks/plugin_singleton/::1716763104
+singletons.gd::GDScript::-1::1716763104::0::1::::<>Object<>::
+::res://addons/kanban_tasks/uuid/::1716763104
+uuid.gd::GDScript::-1::1716763104::0::1::::<>Node<>::
+::res://addons/kanban_tasks/view/::1716763104
+edit_context.gd::GDScript::-1::1716763104::0::1::::<>Node<>::res://addons/kanban_tasks/view/filter.gd<>res://addons/kanban_tasks/data/settings.gd
+filter.gd::GDScript::-1::1716763104::0::1::::<>RefCounted<>::
+shortcuts.gd::GDScript::-1::1716763104::0::1::::<>Node<>::
+tooltip.gd::GDScript::-1::1716763104::0::1::::<>RichTextLabel<>::
+::res://addons/kanban_tasks/view/board/::1716763104
+board.gd::GDScript::-1::1716763104::0::1::::<>VBoxContainer<>::res://addons/kanban_tasks/plugin_singleton/singletons.gd<>res://addons/kanban_tasks/view/shortcuts.gd<>res://addons/kanban_tasks/view/edit_context.gd<>res://addons/kanban_tasks/data/board.gd<>res://addons/kanban_tasks/view/stage/stage.gd<>res://addons/kanban_tasks/view/stage/stage.tscn<>res://addons/kanban_tasks/view/filter.gd<>res://addons/kanban_tasks/view/settings/settings.gd
+board.tscn::PackedScene::6885359366680717350::1716763104::0::1::::<><>::res://addons/kanban_tasks/view/board/board.gd<>uid://dh1yunmhipirg::::res://addons/kanban_tasks/view/settings/settings.tscn
+::res://addons/kanban_tasks/view/category/::1716763104
+category_popup_menu.gd::GDScript::-1::1716763104::0::1::::<>PopupMenu<>::res://addons/kanban_tasks/data/board.gd
+::res://addons/kanban_tasks/view/details/::1716763104
+details.gd::GDScript::-1::1716763104::0::1::::<>AcceptDialog<>::res://addons/kanban_tasks/data/board.gd<>res://addons/kanban_tasks/data/step.gd<>res://addons/kanban_tasks/view/details/step_entry.gd<>res://addons/kanban_tasks/plugin_singleton/singletons.gd<>res://addons/kanban_tasks/view/edit_context.gd
+details.tscn::PackedScene::3948778088959725227::1716763104::0::1::::<><>::res://addons/kanban_tasks/view/details/details.gd<>uid://dwjg5vyxx4g48::::res://addons/kanban_tasks/view/details/step_holder.tscn
+step_entry.gd::GDScript::-1::1716763104::0::1::::<>HBoxContainer<>::res://addons/kanban_tasks/view/details/step_entry.gd<>res://addons/kanban_tasks/edit_label/edit_label.gd<>res://addons/kanban_tasks/data/step.gd<>res://addons/kanban_tasks/plugin_singleton/singletons.gd<>res://addons/kanban_tasks/view/shortcuts.gd
+step_holder.gd::GDScript::-1::1716763104::0::1::::<>VBoxContainer<>::res://addons/kanban_tasks/view/details/step_entry.gd<>res://addons/kanban_tasks/data/step.gd
+step_holder.tscn::PackedScene::8722415027818856523::1716763104::0::1::::<><>::res://addons/kanban_tasks/view/details/step_holder.gd
+::res://addons/kanban_tasks/view/documentation/::1716763104
+1.svg::CompressedTexture2D::1973766188787944111::1716763104::1716763104::1::::<><>::
+2.svg::CompressedTexture2D::2487100435207923230::1716763104::1716763104::1::::<><>::
+3.svg::CompressedTexture2D::2525364531538903352::1716763104::1716763104::1::::<><>::
+4.svg::CompressedTexture2D::1068195540652826908::1716763104::1716763104::1::::<><>::
+documentation.tscn::PackedScene::6327845661545106705::1716763104::0::1::::<><>::uid://3edv1ymvukp0::::res://addons/kanban_tasks/view/documentation/1.svg<>uid://bbo1gfac2wymg::::res://addons/kanban_tasks/view/documentation/2.svg<>uid://bb8knc6dctfj1::::res://addons/kanban_tasks/view/documentation/3.svg<>uid://phpa3kr3tjwu::::res://addons/kanban_tasks/view/documentation/4.svg
+::res://addons/kanban_tasks/view/settings/::1716763104
+settings.gd::GDScript::-1::1716763104::0::1::::<>AcceptDialog<>::res://addons/kanban_tasks/data/board.gd<>res://addons/kanban_tasks/view/settings/categories/categories.tscn<>res://addons/kanban_tasks/view/settings/categories/categories.gd
+settings.tscn::PackedScene::7705751403526120000::1716763104::0::1::::<><>::res://addons/kanban_tasks/view/settings/settings.gd<>uid://due07vdflx4o::::res://addons/kanban_tasks/view/settings/general/general.tscn<>uid://b2likgss81t0s::::res://addons/kanban_tasks/view/settings/categories/categories.tscn<>uid://dapkpnkm8sow8::::res://addons/kanban_tasks/view/settings/stages/stages.tscn
+::res://addons/kanban_tasks/view/settings/categories/::1716763104
+categories.gd::GDScript::-1::1716763104::0::1::::<>VBoxContainer<>::res://addons/kanban_tasks/data/board.gd<>res://addons/kanban_tasks/view/settings/categories/category_entry.gd<>res://addons/kanban_tasks/data/category.gd<>res://addons/kanban_tasks/edit_label/edit_label.gd
+categories.tscn::PackedScene::4304731554905375440::1716763104::0::1::::<><>::res://addons/kanban_tasks/view/settings/categories/categories.gd
+category_entry.gd::GDScript::-1::1716763104::0::1::::<>HBoxContainer<>::res://addons/kanban_tasks/edit_label/edit_label.gd<>res://addons/kanban_tasks/data/board.gd<>res://addons/kanban_tasks/plugin_singleton/singletons.gd<>res://addons/kanban_tasks/view/shortcuts.gd
+::res://addons/kanban_tasks/view/settings/general/::1716763104
+general.gd::GDScript::-1::1716763104::0::1::::<>VBoxContainer<>::res://addons/kanban_tasks/plugin_singleton/singletons.gd<>res://addons/kanban_tasks/view/edit_context.gd<>res://addons/kanban_tasks/data/settings.gd
+general.tscn::PackedScene::252143312145526156::1716763104::0::1::::<><>::res://addons/kanban_tasks/view/settings/general/general.gd
+::res://addons/kanban_tasks/view/settings/stages/::1716763104
+stages.gd::GDScript::-1::1716763104::0::1::::<>VBoxContainer<>::res://addons/kanban_tasks/plugin_singleton/singletons.gd<>res://addons/kanban_tasks/view/edit_context.gd<>res://addons/kanban_tasks/data/board.gd<>res://addons/kanban_tasks/data/stage.gd
+stages.tscn::PackedScene::7190862373068082533::1716763104::0::1::::<><>::res://addons/kanban_tasks/view/settings/stages/stages.gd
+::res://addons/kanban_tasks/view/stage/::1716763104
+stage.gd::GDScript::-1::1716763104::0::1::::<>MarginContainer<>::res://addons/kanban_tasks/plugin_singleton/singletons.gd<>res://addons/kanban_tasks/view/shortcuts.gd<>res://addons/kanban_tasks/view/edit_context.gd<>res://addons/kanban_tasks/data/task.gd<>res://addons/kanban_tasks/view/task/task.tscn<>res://addons/kanban_tasks/view/task/task.gd<>res://addons/kanban_tasks/edit_label/edit_label.gd<>res://addons/kanban_tasks/data/board.gd<>res://addons/kanban_tasks/view/category/category_popup_menu.gd
+stage.tscn::PackedScene::3044052271250671355::1716763104::0::1::::<><>::res://addons/kanban_tasks/view/stage/stage.gd<>res://addons/kanban_tasks/edit_label/edit_label.gd
+::res://addons/kanban_tasks/view/start/::1716763104
+start.gd::GDScript::-1::1716763104::0::1::::<>Control<>::res://addons/kanban_tasks/plugin_singleton/singletons.gd<>res://addons/kanban_tasks/view/edit_context.gd
+start.tscn::PackedScene::2692091061628401710::1716763104::0::1::::<><>::res://addons/kanban_tasks/view/start/start.gd
+::res://addons/kanban_tasks/view/task/::1716763104
+autosize_label.gd::GDScript::-1::1716763104::0::1::::<>Label<>::
+task.gd::GDScript::-1::1716763104::0::1::::<>MarginContainer<>::res://addons/kanban_tasks/plugin_singleton/singletons.gd<>res://addons/kanban_tasks/view/shortcuts.gd<>res://addons/kanban_tasks/view/edit_context.gd<>res://addons/kanban_tasks/view/filter.gd<>res://addons/kanban_tasks/data/board.gd<>res://addons/kanban_tasks/edit_label/edit_label.gd<>res://addons/kanban_tasks/expand_button/expand_button.gd<>res://addons/kanban_tasks/data/task.gd<>res://addons/kanban_tasks/view/details/details.gd<>res://addons/kanban_tasks/view/details/step_holder.gd<>res://addons/kanban_tasks/view/tooltip.gd<>res://addons/kanban_tasks/view/category/category_popup_menu.gd
+task.tscn::PackedScene::5508831843714498441::1716763104::0::1::::<><>::res://addons/kanban_tasks/view/task/task.gd<>res://addons/kanban_tasks/edit_label/edit_label.gd<>res://addons/kanban_tasks/view/task/autosize_label.gd<>uid://bwi22eyrmeeet::::res://addons/kanban_tasks/view/details/details.tscn<>uid://dwjg5vyxx4g48::::res://addons/kanban_tasks/view/details/step_holder.tscn<>res://addons/kanban_tasks/expand_button/expand_button.gd
+::res://addons/resources_spreadsheet_view/::1716640549
+editor_color_setter.gd::GDScript::-1::1716609683::0::1::::<>Control<>::
+editor_icon_button.gd::GDScript::-1::1716609683::0::1::::<>Button<>::
+editor_view.gd::GDScript::-1::1716609683::0::1::::<>Control<>::
+editor_view.tscn::PackedScene::1359036348667950850::1716609683::0::1::::<><>::res://addons/resources_spreadsheet_view/editor_view.gd<>res://addons/resources_spreadsheet_view/editor_color_setter.gd<>res://addons/resources_spreadsheet_view/editor_icon_button.gd<>res://addons/resources_spreadsheet_view/main_screen/recent_paths.gd<>res://addons/resources_spreadsheet_view/main_screen/expression_textfield.gd<>res://addons/resources_spreadsheet_view/main_screen/table_pages.gd<>res://addons/resources_spreadsheet_view/main_screen/column_header_manager.gd<>uid://d1s6oihqedvo5::::res://addons/resources_spreadsheet_view/main_screen/table_header.tscn<>uid://ddqak780cwwfj::::res://addons/resources_spreadsheet_view/typed_editors/dock_enum_array.tscn<>uid://c3a2cip8ffccv::::res://addons/resources_spreadsheet_view/typed_editors/dock_array.tscn<>uid://b3a3bo6cfyh5t::::res://addons/resources_spreadsheet_view/typed_editors/dock_color.tscn<>uid://gtbf7b0wptv::::res://addons/resources_spreadsheet_view/typed_editors/dock_number.tscn<>uid://rww3gpl052bn::::res://addons/resources_spreadsheet_view/typed_editors/dock_texture.tscn<>uid://dhunxgcae6h1::::res://addons/resources_spreadsheet_view/settings_grid.tscn<>uid://p6x03dbvhnqw::::res://addons/resources_spreadsheet_view/typed_editors/dock_dict.tscn<>res://addons/resources_spreadsheet_view/main_screen/input_handler.gd<>uid://b413igx28kkvb::::res://addons/resources_spreadsheet_view/import_export/import_export_dialog.tscn<>res://addons/resources_spreadsheet_view/main_screen/selection_manager.gd<>res://addons/resources_spreadsheet_view/typed_cells/cell_editor_enum_array.gd<>res://addons/resources_spreadsheet_view/typed_cells/cell_editor_array.gd<>res://addons/resources_spreadsheet_view/typed_cells/cell_editor_color.gd<>res://addons/resources_spreadsheet_view/typed_cells/cell_editor_bool.gd<>res://addons/resources_spreadsheet_view/typed_cells/cell_editor_dict.gd<>res://addons/resources_spreadsheet_view/typed_cells/cell_editor_enum.gd<>res://addons/resources_spreadsheet_view/typed_cells/cell_editor_resource.gd<>res://addons/resources_spreadsheet_view/typed_cells/cell_editor_string.gd<>uid://b51hnttsie7k5::::res://addons/resources_spreadsheet_view/main_screen/selection_actions.tscn
+LICENSE.md::TextFile::-1::1716609683::0::1::::<><>::
+plugin.cfg::TextFile::-1::1716609683::0::1::::<><>::
+plugin.gd::GDScript::-1::1716609683::0::1::::<>EditorPlugin<>::
+saved_state.json::JSON::-1::1716609683::0::1::::<><>::
+settings_grid.gd::GDScript::-1::1716609683::0::1::::<>GridContainer<>::
+settings_grid.tscn::PackedScene::226255947765552484::1716609683::0::1::::<><>::res://addons/resources_spreadsheet_view/settings_grid.gd
+text_editing_utils.gd::GDScript::-1::1716609683::0::1::::<>RefCounted<>::
+::res://addons/resources_spreadsheet_view/import_export/::1716640549
+import_export_dialog.gd::GDScript::-1::1716609683::0::1::::<>Control<>::res://addons/resources_spreadsheet_view/import_export/spreadsheet_import.gd<>res://addons/resources_spreadsheet_view/import_export/formats_export/export_csv.gd
+import_export_dialog.tscn::PackedScene::4477285684892157811::1716609683::0::1::::<><>::res://addons/resources_spreadsheet_view/import_export/import_export_dialog.gd<>res://addons/resources_spreadsheet_view/import_export/formats_export/export_csv.gd<>res://addons/resources_spreadsheet_view/import_export/formats_import/import_csv.gd<>uid://b8llymigbprh6::::res://addons/resources_spreadsheet_view/import_export/property_list_item.tscn<>uid://ckhf3bqy2rqjr::::res://addons/resources_spreadsheet_view/import_export/import_export_enum_format.tscn
+import_export_enum_format.gd::GDScript::-1::1716609683::0::1::::<>GridContainer<>::
+import_export_enum_format.tscn::PackedScene::5489534113605552827::1716609683::0::1::::<><>::res://addons/resources_spreadsheet_view/import_export/import_export_enum_format.gd
+property_list_item.gd::GDScript::-1::1716609683::0::1::::<>HBoxContainer<>::
+property_list_item.tscn::PackedScene::4726072067930171289::1716609683::0::1::::<><>::res://addons/resources_spreadsheet_view/import_export/property_list_item.gd
+spreadsheet_import.gd::GDScript::-1::1716609683::0::1::::ResourceTablesImport<>Resource<>::res://addons/resources_spreadsheet_view/import_export/formats_edit/edit_csv.gd
+::res://addons/resources_spreadsheet_view/import_export/formats_edit/::1716640549
+edit_base.gd::GDScript::-1::1716609683::0::1::::ResourceTablesEditFormat<>RefCounted<>::
+edit_csv.gd::GDScript::-1::1716609683::0::1::::ResourceTablesEditFormatCsv<>ResourceTablesEditFormatTres<>::res://addons/resources_spreadsheet_view/import_export/formats_edit/edit_tres.gd<>res://addons/resources_spreadsheet_view/import_export/formats_import/import_csv.gd
+edit_tres.gd::GDScript::-1::1716609683::0::1::::ResourceTablesEditFormatTres<>ResourceTablesEditFormat<>::res://addons/resources_spreadsheet_view/import_export/formats_edit/edit_base.gd
+::res://addons/resources_spreadsheet_view/import_export/formats_export/::1716640549
+export_csv.gd::GDScript::-1::1716609683::0::1::::ResourceTablesExportFormatCsv<>RefCounted<>::
+::res://addons/resources_spreadsheet_view/import_export/formats_import/::1716640549
+import_csv.gd::GDScript::-1::1716609683::0::1::::ResourceTablesImportFormatCsv<>RefCounted<>::
+::res://addons/resources_spreadsheet_view/main_screen/::1716640549
+column_header_manager.gd::GDScript::-1::1716609683::0::1::::<>Control<>::res://addons/resources_spreadsheet_view/settings_grid.gd
+expression_textfield.gd::GDScript::-1::1716609683::0::1::::<>Control<>::
+input_handler.gd::GDScript::-1::1716609683::0::1::::<>Node<>::res://addons/resources_spreadsheet_view/editor_view.gd<>res://addons/resources_spreadsheet_view/main_screen/selection_manager.gd<>res://addons/resources_spreadsheet_view/text_editing_utils.gd
+recent_paths.gd::GDScript::-1::1716609683::0::1::::<>OptionButton<>::
+selection_actions.gd::GDScript::-1::1716609684::0::1::::<>MarginContainer<>::res://addons/resources_spreadsheet_view/text_editing_utils.gd<>res://addons/resources_spreadsheet_view/settings_grid.gd
+selection_actions.tscn::PackedScene::4546209076833415186::1716609684::0::1::::<><>::res://addons/resources_spreadsheet_view/editor_icon_button.gd<>res://addons/resources_spreadsheet_view/main_screen/selection_actions.gd<>res://addons/resources_spreadsheet_view/editor_color_setter.gd
+selection_manager.gd::GDScript::-1::1716609684::0::1::::<>Control<>::res://addons/resources_spreadsheet_view/editor_view.gd
+table_header.gd::GDScript::-1::1716609684::0::1::::<>HBoxContainer<>::
+table_header.tscn::PackedScene::9023238444864536934::1716609684::0::1::::<><>::res://addons/resources_spreadsheet_view/main_screen/table_header.gd<>res://addons/resources_spreadsheet_view/editor_icon_button.gd
+table_pages.gd::GDScript::-1::1716609684::0::1::::<>HBoxContainer<>::
+::res://addons/resources_spreadsheet_view/typed_cells/::1716640549
+array.tscn::PackedScene::1691791334792453565::1716609684::0::1::::<><>::
+basic.tscn::PackedScene::5208745094384306384::1716609684::0::1::::<><>::
+cell_editor.gd::GDScript::-1::1716609684::0::1::::ResourceTablesCellEditor<>RefCounted<>::res://addons/resources_spreadsheet_view/text_editing_utils.gd
+cell_editor_array.gd::GDScript::-1::1716609684::0::1::::<>ResourceTablesCellEditor<>::res://addons/resources_spreadsheet_view/typed_cells/cell_editor.gd<>res://addons/resources_spreadsheet_view/settings_grid.gd
+cell_editor_bool.gd::GDScript::-1::1716609684::0::1::::<>ResourceTablesCellEditor<>::res://addons/resources_spreadsheet_view/typed_cells/cell_editor.gd
+cell_editor_color.gd::GDScript::-1::1716609684::0::1::::<>ResourceTablesCellEditor<>::res://addons/resources_spreadsheet_view/typed_cells/cell_editor.gd
+cell_editor_dict.gd::GDScript::-1::1716609684::0::1::::<>ResourceTablesCellEditor<>::res://addons/resources_spreadsheet_view/typed_cells/cell_editor_array.gd
+cell_editor_enum.gd::GDScript::-1::1716609684::0::1::::<>ResourceTablesCellEditor<>::res://addons/resources_spreadsheet_view/typed_cells/cell_editor.gd
+cell_editor_enum_array.gd::GDScript::-1::1716609684::0::1::::<>ResourceTablesCellEditor<>::res://addons/resources_spreadsheet_view/typed_cells/cell_editor_array.gd
+cell_editor_resource.gd::GDScript::-1::1716609684::0::1::::<>ResourceTablesCellEditor<>::res://addons/resources_spreadsheet_view/typed_cells/cell_editor.gd<>res://addons/resources_spreadsheet_view/settings_grid.gd
+cell_editor_string.gd::GDScript::-1::1716609684::0::1::::<>ResourceTablesCellEditor<>::res://addons/resources_spreadsheet_view/typed_cells/cell_editor.gd
+resource.tscn::PackedScene::5549842431897328278::1716609684::0::1::::<><>::
+::res://addons/resources_spreadsheet_view/typed_editors/::1716640549
+dock_array.gd::GDScript::-1::1716609684::0::1::::<>ResourceTablesDockEditor<>::res://addons/resources_spreadsheet_view/typed_editors/dock_base.gd
+dock_array.tscn::PackedScene::6739772364508730169::1716609684::0::1::::<><>::res://addons/resources_spreadsheet_view/typed_editors/dock_array.gd<>res://addons/resources_spreadsheet_view/editor_icon_button.gd
+dock_base.gd::GDScript::-1::1716609684::0::1::::ResourceTablesDockEditor<>Control<>::res://addons/resources_spreadsheet_view/settings_grid.gd
+dock_color.gd::GDScript::-1::1716609684::0::1::::<>ResourceTablesDockEditor<>::res://addons/resources_spreadsheet_view/typed_editors/dock_base.gd
+dock_color.tscn::PackedScene::4353410950463717563::1716609684::0::1::::<><>::res://addons/resources_spreadsheet_view/typed_editors/dock_color.gd
+dock_dict.gd::GDScript::-1::1716609684::0::1::::<>ResourceTablesDockEditor<>::res://addons/resources_spreadsheet_view/typed_editors/dock_array.gd
+dock_dict.tscn::PackedScene::1118270975989596370::1716609684::0::1::::<><>::res://addons/resources_spreadsheet_view/typed_editors/dock_dict.gd<>res://addons/resources_spreadsheet_view/editor_icon_button.gd
+dock_enum_array.gd::GDScript::-1::1716609684::0::1::::<>ResourceTablesDockEditor<>::res://addons/resources_spreadsheet_view/typed_editors/dock_base.gd
+dock_enum_array.tscn::PackedScene::7402878216862604603::1716609684::0::1::::<><>::res://addons/resources_spreadsheet_view/typed_editors/dock_enum_array.gd<>res://addons/resources_spreadsheet_view/editor_icon_button.gd
+dock_number.gd::GDScript::-1::1716609684::0::1::::<>ResourceTablesDockEditor<>::res://addons/resources_spreadsheet_view/typed_editors/dock_base.gd
+dock_number.tscn::PackedScene::13541987311044919::1716609684::0::1::::<><>::res://addons/resources_spreadsheet_view/typed_editors/dock_number.gd
+dock_texture.gd::GDScript::-1::1716609684::0::1::::<>ResourceTablesDockEditor<>::res://addons/resources_spreadsheet_view/typed_editors/dock_base.gd
+dock_texture.tscn::PackedScene::1240012767352640443::1716609684::0::1::::<><>::res://addons/resources_spreadsheet_view/typed_editors/dock_texture.gd
+::res://Art/::1716640550
+Particles.png::CompressedTexture2D::8908944532584398672::1716609671::1716609739::1::::<><>::
+StatsPanel.png::CompressedTexture2D::1352273120646658799::1716609671::1716609739::1::::<><>::
+::res://Art/Animals/::1716640549
+bird_recolor.png::CompressedTexture2D::2328191412686391361::1716609671::1716609739::1::::<><>::
+chick_24x24.png::CompressedTexture2D::4360253801208261366::1716609671::1716609739::1::::<><>::
+rat and bat spritesheet calciumtrice.png::CompressedTexture2D::8659461584777059085::1716609671::1716609739::1::::<><>::
+::res://Art/Character v.2/::1716640549
+MainChar.png::CompressedTexture2D::7681651228996911028::1716609671::1716609739::1::::<><>::
+shadow.png::CompressedTexture2D::292327332630630274::1716609671::1716609739::1::::<><>::
+::res://Art/Character v.2/NewCharAnims/::1716640549
+CharIdles.png::CompressedTexture2D::6652297161208089196::1716609671::1716609739::1::::<><>::
+idle.png::CompressedTexture2D::3169544064681078360::1716609672::1716609739::1::::<><>::
+swing_down.png::CompressedTexture2D::5401953936354217179::1716609672::1716609739::1::::<><>::
+swing_left.png::CompressedTexture2D::1981225547708472467::1716609672::1716609739::1::::<><>::
+swing_right.png::CompressedTexture2D::3879470869410886880::1716609672::1716609739::1::::<><>::
+swing_up.png::CompressedTexture2D::392916745648939504::1716609672::1716609739::1::::<><>::
+walk_down.png::CompressedTexture2D::4879186080233140506::1716609672::1716609739::1::::<><>::
+walk_left.png::CompressedTexture2D::837081517230529225::1716609672::1716609739::1::::<><>::
+walk_right.png::CompressedTexture2D::5824037848771224337::1716609672::1716609739::1::::<><>::
+walk_up.png::CompressedTexture2D::4730843707754883559::1716609672::1716609739::1::::<><>::
+::res://Art/Cursors/::1716640549
+cursor-pointer-16.png::CompressedTexture2D::7258852674846269672::1716609672::1716609739::1::::<><>::
+cursor-pointer-18.png::CompressedTexture2D::5110198386686733266::1716609672::1716609739::1::::<><>::
+cursor-pointer-24.png::CompressedTexture2D::6533296404334340832::1716609672::1716609739::1::::<><>::
+cursor-pointer-25.png::CompressedTexture2D::7743423900122178127::1716609672::1716609739::1::::<><>::
+cursor-pointer-30.png::CompressedTexture2D::3464952692000262262::1716609672::1716609739::1::::<><>::
+::res://Art/Enemies/::1716640549
+::res://Art/Enemies/RandomMonsters/::1716640549
+goblin spritesheet calciumtrice.png::CompressedTexture2D::77379324109906172::1716609672::1716609739::1::::<><>::
+slime spritesheet calciumtrice.png::CompressedTexture2D::2787830990389932719::1716609672::1716609739::1::::<><>::
+slime.png::CompressedTexture2D::7042623197169984070::1716609672::1716609739::1::::<><>::
+snake spritesheet calciumtrice.png::CompressedTexture2D::1395017560523146058::1716609672::1716609739::1::::<><>::
+::res://Art/Enemies/RandomMonsters/Bat/::1716640549
+32x32-bat-sprite.png::CompressedTexture2D::9053116418337672265::1716609672::1716609739::1::::<><>::
+batwalk.png::CompressedTexture2D::6991387700725411039::1716609672::1716609739::1::::<><>::
+::res://Art/Enemies/RandomMonsters/Eyeball/::1716640549
+eyeball spritesheet.png::CompressedTexture2D::6488730140320703383::1716609672::1716609739::1::::<><>::
+EyeballIdle.png::CompressedTexture2D::7778144679519586235::1716609672::1716609739::1::::<><>::
+EyeballWalk.png::CompressedTexture2D::4333097668400847976::1716609672::1716609739::1::::<><>::
+::res://Art/ItemSprites/::1716640550
+all the icons (gardens).png::CompressedTexture2D::6377957862051258774::1716609673::1716609739::1::::<><>::
+CoinAnim.png::CompressedTexture2D::8920905523249507882::1716609672::1716609739::1::::<><>::
+Coins.png::CompressedTexture2D::3362675527095463775::1716609672::1716609739::1::::<><>::
+pickaxe.png::CompressedTexture2D::1408033767353841822::1716609673::1716609739::1::::<><>::
+Rock.png::CompressedTexture2D::6310182909819718142::1716609672::1716609739::1::::<><>::
+spritesheet_16x16.png::CompressedTexture2D::7358771309365712024::1716609673::1716609739::1::::<><>::
+::res://Art/ItemSprites/FarmingSprites/::1716640550
+Beans.png::CompressedTexture2D::1798795504168901617::1716609673::1716609739::1::::<><>::
+Corn.png::CompressedTexture2D::3332886421887489761::1716609673::1716609739::1::::<><>::
+Crop_Spritesheet.png::CompressedTexture2D::268118662825659503::1716609673::1716609739::1::::<><>::
+Eggplant.png::CompressedTexture2D::8534940917591795775::1716609673::1716609739::1::::<><>::
+Flax.png::CompressedTexture2D::4441161537536297141::1716609673::1716609739::1::::<><>::
+Grapes.png::CompressedTexture2D::4925624083160119211::1716609673::1716609739::1::::<><>::
+Lavender.png::CompressedTexture2D::2696732896366299900::1716609673::1716609739::1::::<><>::
+Lemon.png::CompressedTexture2D::4413618319846992431::1716609673::1716609739::1::::<><>::
+Orange.png::CompressedTexture2D::1569563141261128235::1716609673::1716609739::1::::<><>::
+Pear.png::CompressedTexture2D::2008986534621956601::1716609673::1716609739::1::::<><>::
+Pineapple.png::CompressedTexture2D::5312620062706513507::1716609673::1716609739::1::::<><>::
+Potatoe.png::CompressedTexture2D::7413915561236126175::1716609673::1716609739::1::::<><>::
+Rose.png::CompressedTexture2D::7787092889069714950::1716609673::1716609739::1::::<><>::
+Strawberry.png::CompressedTexture2D::4287436921993724073::1716609673::1716609739::1::::<><>::
+Sunflower.png::CompressedTexture2D::3432388871740372211::1716609673::1716609739::1::::<><>::
+Tomato.png::CompressedTexture2D::7458160503389330454::1716609673::1716609739::1::::<><>::
+Turnip.png::CompressedTexture2D::5006142561150875807::1716609673::1716609739::1::::<><>::
+Watermelon.png::CompressedTexture2D::8721372200298914154::1716609673::1716609739::1::::<><>::
+Wheat.png::CompressedTexture2D::331143753323947605::1716609673::1716609739::1::::<><>::
+::res://Art/ItemSprites/ItemIcons/::1716640550
+Book.png::CompressedTexture2D::3622351655652109725::1716609673::1716609739::1::::<><>::
+HealthPotion.png::CompressedTexture2D::5110982530636005519::1716609673::1716609739::1::::<><>::
+::res://Art/NPC_Models/::1716640550
+NPC1.png::CompressedTexture2D::6797715246501149896::1716609673::1716609739::1::::<><>::
+::res://Art/RavenFantastyArtBundle/::1716640550
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - 2D PixelArt Tileset and Sprites - Green Forest 2/::1716640550
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - 2D PixelArt Tileset and Sprites - Green Forest 2/All Tileset/::1716640550
+16X16.png::CompressedTexture2D::1653231986687147345::1716609674::1716609739::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - 2D PixelArt Tileset and Sprites - Honey Bee/::1716640550
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - 2D PixelArt Tileset and Sprites - Honey Bee/All Tileset/::1716640550
+16x16.png::CompressedTexture2D::7692610842167019814::1716609674::1716609739::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - 2D PixelArt Tileset and Sprites - Sun City/::1716640550
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - 2D PixelArt Tileset and Sprites - Sun City/All Tileset/::1716640550
+16x16.png::CompressedTexture2D::3423231599049804925::1716609674::1716609739::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Beach, Ocean and Shore/::1716640550
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Beach, Ocean and Shore/All Tileset/::1716640550
+16X16.png::CompressedTexture2D::2068105187905154118::1716609674::1716609739::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Craft Stations/::1716640550
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Craft Stations/All Tileset/::1716640550
+16X16.png::CompressedTexture2D::2354515506621156183::1716609674::1716609739::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Farmlands V3/::1716640550
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Farmlands V3/All Tileset/::1716640550
+16x16.png::CompressedTexture2D::467440062314578233::1716609674::1716609739::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Green Buildings/::1716640550
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Green Buildings/All Tileset/::1716640550
+16X16.png::CompressedTexture2D::3504579902007648199::1716609674::1716609739::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Green Dungeon/::1716640550
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Green Dungeon/All Tileset/::1716640550
+16x16.png::CompressedTexture2D::5684377863946738778::1716609674::1716609739::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Green Forest v2/::1716640550
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Green Forest v2/All Tileset/::1716640550
+16x16.png::CompressedTexture2D::5986938485408080519::1716609674::1716609739::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Green Village/::1716640550
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Green Village/All Tileset/::1716640550
+16x16.png::CompressedTexture2D::8926303241583073134::1716609674::1716609739::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Interiors/::1716640550
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Interiors/All Tileset/::1716640550
+16x16.png::CompressedTexture2D::6025991154066385343::1716609674::1716609739::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Miner's Cave/::1716640550
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Miner's Cave/All Tileset/::1716640550
+16x16.png::CompressedTexture2D::3535592530568453457::1716609674::1716609739::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - The Underworld/::1716640550
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - The Underworld/All Tileset/::1716640550
+16x16.png::CompressedTexture2D::5456044689488814559::1716609674::1716609739::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Winter Forest/::1716640550
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Winter Forest/All Tileset/::1716640550
+16X16.png::CompressedTexture2D::666353740079476911::1716609674::1716609739::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Winter Village/::1716640550
+::res://Art/RavenFantastyArtBundle/Raven Fantasy - Pixel Art Tileset - Winter Village/All Tileset/::1716640550
+16X16.png::CompressedTexture2D::3043669293314086485::1716609674::1716609739::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy Icons v3/::1716640550
+::res://Art/RavenFantastyArtBundle/Raven Fantasy Icons v3/Raven Fantasy Icons/::1716640550
+::res://Art/RavenFantastyArtBundle/Raven Fantasy Icons v3/Raven Fantasy Icons/Categories/::1716640550
+::res://Art/RavenFantastyArtBundle/Raven Fantasy Icons v3/Raven Fantasy Icons/Categories/16x16/::1716640550
+Alchemy and Potions.png::CompressedTexture2D::1705920645755617362::1716609674::1716609739::1::::<><>::
+Loot and Treasure.png::CompressedTexture2D::832209139552507383::1716609674::1716609739::1::::<><>::
+Map and UI.png::CompressedTexture2D::4960183668092927692::1716609674::1716609739::1::::<><>::
+Sea and Food.png::CompressedTexture2D::9143701280511553047::1716609674::1716609739::1::::<><>::
+Skills and Spells.png::CompressedTexture2D::1212555646887886466::1716609674::1716609739::1::::<><>::
+Weapons and Equipment.png::CompressedTexture2D::1081118114166793123::1716609674::1716609739::1::::<><>::
+::res://Art/RavenFantastyArtBundle/Raven Fantasy Icons v3/Raven Fantasy Icons/Full Spritesheet/::1716640550
+::res://Art/RavenFantastyArtBundle/Raven Fantasy Icons v3/Raven Fantasy Icons/Full Spritesheet/16x16/::1716640550
+16x16.png::CompressedTexture2D::5346711830678347864::1716609675::1716609739::1::::<><>::
+::res://Art/ResourceNodeArt/::1716640550
+ResourceNodeRock.png::CompressedTexture2D::829289194231672263::1716609675::1716609739::1::::<><>::
+TreeObject.png::CompressedTexture2D::5319845650716848879::1716609675::1716609739::1::::<><>::
+::res://Art/Themes/::1716640550
+::res://Art/UI Art/::1716640550
+::res://Art/UI Art/Fonts/::1716640550
+BitPotion.ttf::FontFile::1509150908777862233::1716609675::1716609739::1::::<><>::
+Clarity.ttf::FontFile::8154292412137782320::1716609675::1716609739::1::::<><>::
+Diary of an 8-bit mage.otf::FontFile::8625508471424495985::1716609675::1716609739::1::::<><>::
+DungeonFont.ttf::FontFile::338642133904008966::1716609675::1716609739::1::::<><>::
+mago1.ttf::FontFile::2412128735862545279::1716609675::1716609739::1::::<><>::
+mago2.ttf::FontFile::2972326732315065870::1716609675::1716609739::1::::<><>::
+mago3.ttf::FontFile::1942026068657949652::1716609675::1716609739::1::::<><>::
+monogram.ttf::FontFile::892215261991836780::1716609675::1716609739::1::::<><>::
+PeaberryBase.ttf::FontFile::7657766461178267606::1716609675::1716609739::1::::<><>::
+pixelated-loveNew.ttf::FontFile::7663479419010661697::1716609675::1716609739::1::::<><>::
+PixelatedLoveOld.ttf::FontFile::500548213604707159::1716609675::1716609739::1::::<><>::
+QuinqueFive.ttf::FontFile::5619519825406255483::1716609675::1716609739::1::::<><>::
+Salmon Typewriter 9 Regular.ttf::FontFile::5608397606212223507::1716609675::1716609739::1::::<><>::
+::res://Art/UI Art/InvUISprites/::1716640550
+GUI(1).png::CompressedTexture2D::5428076864390079559::1716609675::1716609739::1::::<><>::
+hotbar_bg.png::CompressedTexture2D::7154547297929215122::1716609675::1716609739::1::::<><>::
+InvBackground.png::CompressedTexture2D::5418109596213739037::1716609675::1716609739::1::::<><>::
+InvBG.png::CompressedTexture2D::4907576629638735361::1716609675::1716609739::1::::<><>::
+InvSlot.png::CompressedTexture2D::1075568100023066079::1716609675::1716609739::1::::<><>::
+slotBG.png::CompressedTexture2D::8550472520606718668::1716609675::1716609739::1::::<><>::
+::res://Art/UI Art/UI Assets pack_v.1_st/::1716640550
+pixel-ui.png::CompressedTexture2D::5744351682964770495::1716609676::1716609739::1::::<><>::
+::res://Art/UIArtUpdated/::1716640550
+Inventory_background.png::CompressedTexture2D::8368994432392138760::1716609676::1716609739::1::::<><>::
+Inventory_Bar.png::CompressedTexture2D::6104627569004494937::1716609676::1716609739::1::::<><>::
+Inventory_select.png::CompressedTexture2D::2961253361382477094::1716609676::1716609739::1::::<><>::
+Inventory_Slot.png::CompressedTexture2D::4219260751734860829::1716609676::1716609739::1::::<><>::
+Inventory_style_03b.png::CompressedTexture2D::4629698900414222788::1716609676::1716609739::1::::<><>::
+::res://Crafting/::1716763104
+CraftingRecipe.gd::GDScript::-1::1716763104::0::1::::CraftingRecipe<>Resource<>::res://Item/Item_Data.gd<>res://Crafting/CraftingRecipeRequirement.gd
+CraftingRecipeRequirement.gd::GDScript::-1::1716763104::0::1::::CraftingRecipeRequirement<>Resource<>::res://Item/Item_Data.gd
+CraftingSystem.gd::GDScript::-1::1716763104::0::1::::<>Node<>::res://Crafting/CraftingRecipe.gd<>res://Inventory/InventoryScripts/Inventory_Data.gd<>res://Inventory/InventoryScripts/Slot_Data.gd
+crafting_system.tscn::PackedScene::3792325810626844578::1716763104::0::1::::<><>::res://Crafting/CraftingSystem.gd
+::res://Crafting/Recipes/::1716763104
+iron_sword_recipe.tres::Resource/Resource::207813559248394673::1716763104::0::1::::<><>::uid://bjasbo6oafgyj::::res://Item/Items/ItemTypes/Equip/Iron_Sword.tres<>res://Crafting/CraftingRecipeRequirement.gd<>res://Crafting/CraftingRecipe.gd<>uid://b6ic3vp866s3u::::res://Item/Items/ItemTypes/Materials/Iron_Bar.tres<>uid://b46vhhfxnb566::::res://Item/Items/ItemTypes/Materials/Stick.tres
+sticks_recipe.tres::Resource/Resource::60639435155426604::1716763104::0::1::::<><>::uid://b46vhhfxnb566::::res://Item/Items/ItemTypes/Materials/Stick.tres<>res://Crafting/CraftingRecipeRequirement.gd<>res://Crafting/CraftingRecipe.gd<>uid://c852d6k1bbbvd::::res://Item/Items/ItemTypes/Materials/Logs.tres
+wooden_sword_recipe.tres::Resource/Resource::8709047969203367316::1716763104::0::1::::<><>::res://Crafting/CraftingRecipeRequirement.gd<>uid://dkkdjlafqgnsw::::res://Item/Items/ItemTypes/Equip/Wooden_Sword.tres<>res://Crafting/CraftingRecipe.gd<>uid://b46vhhfxnb566::::res://Item/Items/ItemTypes/Materials/Stick.tres<>uid://b6ic3vp866s3u::::res://Item/Items/ItemTypes/Materials/Iron_Bar.tres
+::res://Inventory/::1716763104
+::res://Inventory/Inventory Resources/::1716763313
+Inventory.tres::Resource/InventoryData::2667457234754635561::1716763313::0::1::::<><>::res://Inventory/InventoryScripts/Inventory_Data.gd<>res://Inventory/InventoryScripts/Slot_Data.gd<>uid://b6ic3vp866s3u::::res://Item/Items/ItemTypes/Materials/Iron_Bar.tres<>uid://c852d6k1bbbvd::::res://Item/Items/ItemTypes/Materials/Logs.tres
+Inventory_Data_Equip.tres::Resource/InventoryDataEquip::7766519911545753192::1716763313::0::1::::<><>::res://Inventory/InventoryScripts/Inventory_Data_Equip.gd<>uid://c7xngyccv0uhg::::res://Item/Items/ItemTypes/Equip/Accessory/Test_Base_Accessory.tres<>res://Inventory/InventoryScripts/Slot_Data.gd<>uid://boagntdt4r56g::::res://Item/Items/ItemTypes/Equip/Chest/Test_Base_Chestplate.tres<>uid://b307y256tpr88::::res://Item/Items/ItemTypes/Equip/Head/Test_Base_Helm.tres<>uid://d2jug7nhl146m::::res://Item/Items/ItemTypes/Equip/Legs/Test_Base_Leggings.tres<>uid://ch1ufjm7mo43e::::res://Item/Items/ItemTypes/Equip/Main/Test_Base_Sword.tres
+Inventory_Data_Hotbar.tres::Resource/InventoryDataHotbar::7048096329866520356::1716763313::0::1::::<><>::res://Inventory/InventoryScripts/Inventory_Data_Hotbar.gd<>res://Inventory/InventoryScripts/Slot_Data.gd
+::res://Inventory/InventoryScenes/::1716763104
+EquipInventory.tscn::PackedScene::2654938941109602770::1716763104::0::1::::<><>::uid://bwe48eo60ijh8::::res://Inventory/InventoryScenes/Inventory.tscn<>uid://xgl7ahpfy33l::::res://Inventory/InventoryScenes/Slot.tscn
+ExternalInventory.tscn::PackedScene::2065330005035257480::1716763104::0::1::::<><>::res://Inventory/InventoryScripts/Inventory.gd<>uid://cb6jcnauc0u7j::::res://Art/UI Art/InvUISprites/InvBG.png
+HotBarInventory.tscn::PackedScene::3478346604773539600::1716763104::0::1::::<><>::res://Inventory/InventoryScripts/Inventory.gd<>uid://c86yl4dqkvqy1::::res://Art/UI Art/InvUISprites/hotbar_bg.png
+Inventory.tscn::PackedScene::3940652711898035683::1716763104::0::1::::<><>::res://Inventory/InventoryScripts/Inventory.gd<>uid://cb6jcnauc0u7j::::res://Art/UI Art/InvUISprites/InvBG.png
+inventory_ui.tscn::PackedScene::7268225271893667967::1716763104::0::1::::<><>::uid://d20a5atje1klx::::res://Themes/FontTheme.tres<>res://Inventory/InventoryScripts/Inventory_Interface.gd<>uid://bwe48eo60ijh8::::res://Inventory/InventoryScenes/Inventory.tscn<>uid://xgl7ahpfy33l::::res://Inventory/InventoryScenes/Slot.tscn<>uid://bd3cprxbqi86q::::res://Inventory/InventoryScenes/EquipInventory.tscn<>uid://4opxibybt3ui::::res://Inventory/InventoryScenes/ExternalInventory.tscn<>uid://bps64iuxhpw05::::res://Inventory/InventoryScenes/HotBarInventory.tscn
+Slot.tscn::PackedScene::1627454714027311843::1716763104::0::1::::<><>::res://Inventory/InventoryScripts/Slot.gd<>uid://dt26bel5tu3h5::::res://Art/UI Art/InvUISprites/slotBG.png
+::res://Inventory/InventoryScripts/::1716763104
+HotBarInventory.gd::GDScript::-1::1716763104::0::1::::<>PanelContainer<>::res://Inventory/InventoryScenes/Slot.tscn<>res://Inventory/InventoryScripts/Inventory_Data.gd
+Inventory.gd::GDScript::-1::1716763104::0::1::::<>PanelContainer<>::res://Inventory/InventoryScenes/Slot.tscn<>res://Inventory/InventoryScripts/Inventory_Data.gd
+Inventory_Data.gd::GDScript::-1::1716763104::0::1::::InventoryData<>Resource<>::res://Inventory/InventoryScripts/Inventory_Data.gd<>res://Inventory/InventoryScripts/Slot_Data.gd<>res://Item/Items/ItemTypes/Consumables/Item_Data_Consumable.gd<>res://Objects/Player/Player_Manager.gd
+Inventory_Data_Equip.gd::GDScript::-1::1716763104::0::1::::InventoryDataEquip<>InventoryData<>::res://Inventory/InventoryScripts/Inventory_Data.gd<>res://Inventory/InventoryScripts/Slot_Data.gd<>res://Item/Items/ItemTypes/Equip/Item_Data_Equip.gd
+Inventory_Data_Hotbar.gd::GDScript::-1::1716763104::0::1::::InventoryDataHotbar<>InventoryData<>::res://Inventory/InventoryScripts/Inventory_Data.gd<>res://Inventory/InventoryScripts/Slot_Data.gd<>res://Item/Items/ItemTypes/Consumables/Item_Data_Consumable.gd<>res://Objects/Player/Player_Manager.gd
+Inventory_Interface.gd::GDScript::-1::1716763104::0::1::::<>Control<>::res://Inventory/InventoryScripts/Slot_Data.gd<>res://Inventory/InventoryScripts/Inventory_Data.gd
+Slot.gd::GDScript::-1::1716763104::0::1::::<>PanelContainer<>::res://Inventory/InventoryScripts/Slot_Data.gd
+Slot_Data.gd::GDScript::-1::1716763104::0::1::::SlotData<>Resource<>::res://Item/Item_Data.gd<>res://Inventory/InventoryScripts/Slot_Data.gd
+::res://Item/::1716763104
+ItemAtlas.tres::AtlasTexture::4918482130048878882::1716763104::0::1::::<><>::
+Item_Data.gd::GDScript::-1::1716763104::0::1::::ItemData<>Resource<>::
+::res://Item/ItemAtlas'/::1716763104
+Chest_Atlas.tres::AtlasTexture::4453124993518176439::1716609679::0::1::::<><>::
+Item_Atlas1.tres::AtlasTexture::3426510706714159891::1716763104::0::1::::<><>::uid://5b0aqh75gyr4::::res://Item/ItemAtlas'/ItemAtlas'Sprites/16x16/Loot and Treasure.png
+Item_Atlas2.tres::AtlasTexture::5374590541728118463::1716612200::0::1::::<><>::
+Item_Atlas3.tres::AtlasTexture::5233081892999855173::1716612200::0::1::::<><>::
+Item_Atlas4.tres::AtlasTexture::5609188242118165238::1716612200::0::1::::<><>::
+::res://Item/ItemAtlas'/ItemAtlas'Sprites/::1716640550
+treasure chests.png::CompressedTexture2D::3064902199927383610::1716609679::1716609739::1::::<><>::
+::res://Item/ItemAtlas'/ItemAtlas'Sprites/16x16/::1716640550
+Alchemy and Potions.png::CompressedTexture2D::4097784239187792550::1716609679::1716609739::1::::<><>::
+Loot and Treasure.png::CompressedTexture2D::2109248464395713935::1716609679::1716609739::1::::<><>::
+Map and UI.png::CompressedTexture2D::7931676290490462798::1716609679::1716609739::1::::<><>::
+Sea and Food.png::CompressedTexture2D::1179799503706884931::1716609679::1716609739::1::::<><>::
+Skills and Spells.png::CompressedTexture2D::6797314145177003534::1716609679::1716609739::1::::<><>::
+Weapons and Equipment.png::CompressedTexture2D::7781380944854501769::1716609679::1716609739::1::::<><>::
+::res://Item/Items/::1716640550
+::res://Item/Items/ItemTypes/::1716763104
+::res://Item/Items/ItemTypes/Consumables/::1716640550
+Health_Potion.tres::Resource/Resource::6899680003930603278::1716611251::0::1::::<><>::res://Item/Items/ItemTypes/Consumables/Item_Data_Consumable.gd
+Item_Data_Consumable.gd::GDScript::-1::1716609679::0::1::::ItemDataConsumable<>ItemData<>::res://Item/Item_Data.gd
+::res://Item/Items/ItemTypes/Equip/::1716763104
+Iron_Sword.tres::Resource/Resource::3019215751951232889::1716763104::0::1::::<><>::res://Item/Items/ItemTypes/Equip/Item_Data_Equip.gd<>res://Inventory/InventoryScripts/Slot_Data.gd<>uid://b6ic3vp866s3u::::res://Item/Items/ItemTypes/Materials/Iron_Bar.tres<>uid://b46vhhfxnb566::::res://Item/Items/ItemTypes/Materials/Stick.tres
+Item_Data_Equip.gd::GDScript::-1::1716638892::0::1::::ItemDataEquip<>ItemData<>::res://Item/Item_Data.gd
+Wooden_Sword.tres::Resource/Resource::7881993066129329790::1716763104::0::1::::<><>::res://Item/Items/ItemTypes/Equip/Item_Data_Equip.gd
+::res://Item/Items/ItemTypes/Equip/Accessory/::1716763313
+Equip_Data_Accessory.gd::GDScript::-1::1716609679::0::1::::EquipDataAccessory<>ItemDataEquip<>::res://Item/Items/ItemTypes/Equip/Item_Data_Equip.gd
+Test_Base_Accessory.tres::Resource/EquipDataAccessory::7067166351585958812::1716763313::0::1::::<><>::res://Item/Items/ItemTypes/Equip/Accessory/Equip_Data_Accessory.gd<>uid://5b0aqh75gyr4::::res://Item/ItemAtlas'/ItemAtlas'Sprites/16x16/Loot and Treasure.png
+::res://Item/Items/ItemTypes/Equip/Chest/::1716763313
+Equip_Data_Chest.gd::GDScript::-1::1716609679::0::1::::EquipDataChest<>ItemDataEquip<>::res://Item/Items/ItemTypes/Equip/Item_Data_Equip.gd
+Test_Base_Chestplate.tres::Resource/EquipDataChest::3369453015383713556::1716763313::0::1::::<><>::res://Item/Items/ItemTypes/Equip/Chest/Equip_Data_Chest.gd
+::res://Item/Items/ItemTypes/Equip/Head/::1716763313
+Equip_Data_Head.gd::GDScript::-1::1716609679::0::1::::EquipDataHead<>ItemDataEquip<>::res://Item/Items/ItemTypes/Equip/Item_Data_Equip.gd
+Test_Base_Helm.tres::Resource/EquipDataHead::4405305018140831823::1716763313::0::1::::<><>::res://Item/Items/ItemTypes/Equip/Head/Equip_Data_Head.gd
+::res://Item/Items/ItemTypes/Equip/Legs/::1716763313
+Equip_Data_Legs.gd::GDScript::-1::1716609679::0::1::::EquipDataLegs<>ItemDataEquip<>::res://Item/Items/ItemTypes/Equip/Item_Data_Equip.gd
+Test_Base_Leggings.tres::Resource/EquipDataLegs::9074166984874940350::1716763313::0::1::::<><>::res://Item/Items/ItemTypes/Equip/Legs/Equip_Data_Legs.gd
+::res://Item/Items/ItemTypes/Equip/Main/::1716763313
+Equip_Data_Main.gd::GDScript::-1::1716609679::0::1::::EquipDataMain<>ItemDataEquip<>::res://Item/Items/ItemTypes/Equip/Item_Data_Equip.gd
+Test_Base_Sword.tres::Resource/EquipDataMain::5319060856001195360::1716763313::0::1::::<><>::res://Item/Items/ItemTypes/Equip/Main/Equip_Data_Main.gd
+::res://Item/Items/ItemTypes/Equip/Secondary/::1716640550
+Equip_Data_Secondary.gd::GDScript::-1::1716609679::0::1::::EquipDataSecondary<>ItemDataEquip<>::res://Item/Items/ItemTypes/Equip/Item_Data_Equip.gd
+Test_Base_Shield.tres::Resource/Resource::7220286979993542752::1716611251::0::1::::<><>::res://Item/Items/ItemTypes/Equip/Secondary/Equip_Data_Secondary.gd
+::res://Item/Items/ItemTypes/Materials/::1716763313
+Iron_Bar.tres::Resource/ItemData::4578962422423908060::1716763313::0::1::::<><>::res://Item/Item_Data.gd<>uid://5b0aqh75gyr4::::res://Item/ItemAtlas'/ItemAtlas'Sprites/16x16/Loot and Treasure.png
+Logs.tres::Resource/ItemData::7152650901104070441::1716763313::0::1::::<><>::res://Item/Item_Data.gd<>uid://5b0aqh75gyr4::::res://Item/ItemAtlas'/ItemAtlas'Sprites/16x16/Loot and Treasure.png
+Stick.tres::Resource/Resource::4487180793427258541::1716763104::0::1::::<><>::res://Item/Item_Data.gd<>uid://5b0aqh75gyr4::::res://Item/ItemAtlas'/ItemAtlas'Sprites/16x16/Loot and Treasure.png
+::res://Objects/::1716640550
+::res://Objects/Interactables/::1716640550
+chest.tscn::PackedScene::970553015387223372::1716609680::0::1::::<><>::res://Objects/InteractableScripts/Chest.gd
+::res://Objects/InteractableScripts/::1716640550
+Chest.gd::GDScript::-1::1716609679::0::1::::<>StaticBody2D<>::res://Inventory/Inventory_Data.gd
+::res://Objects/Player/::1716763212
+Player.gd::GDScript::-1::1716763212::0::1::::Player<>CharacterBody2D<>::res://Inventory/InventoryScripts/Inventory_Data.gd<>res://Inventory/InventoryScripts/Inventory_Data_Equip.gd<>res://Inventory/InventoryScripts/Inventory_Data_Hotbar.gd<>res://Objects/Player/Player_Manager.gd
+Player.tscn::PackedScene::4932919055033233324::1716763104::0::1::::<><>::uid://c11omk4dyrwg7::::res://Art/Character v.2/NewCharAnims/CharIdles.png<>res://Objects/Player/Player.gd
+Player_Manager.gd::GDScript::-1::1716763212::0::1::::<>Node<>::res://Skills/SkillScripts/PlayerSkills.gd<>res://Inventory/InventoryScripts/Slot_Data.gd
+::res://Scenes/::1716763313
+Camera2D.gd::GDScript::-1::1716609680::0::1::::<>Camera2D<>::
+world.gd::GDScript::-1::1716763212::0::1::::<>Node2D<>::res://Item/Item_Data.gd<>res://Item/Items/ItemTypes/Materials/Logs.tres<>res://Inventory/InventoryScripts/Slot_Data.gd<>res://Objects/Player/Player_Manager.gd
+world.tscn::PackedScene::5843714428282428657::1716763313::0::1::::<><>::res://Scenes/world.gd<>uid://xs3qvuxf613j::::res://Art/RavenFantastyArtBundle/Raven Fantasy - 2D PixelArt Tileset and Sprites - Green Forest 2/All Tileset/16X16.png<>uid://ccjsprjwex7ye::::res://Objects/Player/Player.tscn<>uid://bubbb1fgvolje::::res://Crafting/crafting_system.tscn<>uid://dbs1uxhxnebv8::::res://Inventory/InventoryScenes/inventory_ui.tscn<>uid://beaevpmksat1j::::res://Inventory/Inventory Resources/Inventory.tres<>res://Scenes/Camera2D.gd<>res://Inventory/InventoryScripts/Inventory_Data.gd<>res://Inventory/InventoryScripts/Slot_Data.gd<>uid://n3e4prthg1iu::::res://Objects/Interactables/chest.tscn<>uid://diwfpifv1tj6o::::res://Inventory/Inventory Resources/Inventory_Data_Equip.tres<>res://Item/Item_Data.gd<>uid://c7ofd8bhutpdk::::res://Inventory/Inventory Resources/Inventory_Data_Hotbar.tres<>uid://5b0aqh75gyr4::::res://Item/ItemAtlas'/ItemAtlas'Sprites/16x16/Loot and Treasure.png
+::res://Scripts/::1716753932
+::res://Skills/::1716763104
+::res://Skills/SkillResources/::1716763104
+Mining.tres::Resource/Resource::1988967258961492560::1716763104::0::1::::<><>::res://Skills/SkillScripts/PlayerSkills.gd
+::res://Skills/SkillScripts/::1716763212
+PlayerSkills.gd::GDScript::-1::1716763212::0::1::::PlayerSkills<>Node<>::
+SkillManager.gd::GDScript::-1::1716763104::0::1::::<>Node<>::
+::res://Themes/::1716763104
+FontTheme.tres::Theme::9106023876741400741::1716763104::0::1::::<><>::uid://du5i4nfkltda4::::res://Art/UI Art/Fonts/Diary of an 8-bit mage.otf

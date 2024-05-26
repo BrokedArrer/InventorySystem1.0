@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://c852d6k1bbbvd"]
+
+[ext_resource type="Script" path="res://Item/Item_Data.gd" id="1_brff0"]
+[ext_resource type="Texture2D" uid="uid://5b0aqh75gyr4" path="res://Item/ItemAtlas'/ItemAtlas'Sprites/16x16/Loot and Treasure.png" id="2_3ondw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0g0wl"]
+atlas = ExtResource("2_3ondw")
+region = Rect2(160, 464, 16, 16)
+
+[resource]
+script = ExtResource("1_brff0")
+name = "Logs"
+description = "A stack of Logs."
+stackable = true
+texture = SubResource("AtlasTexture_0g0wl")
+type = "Material"
+rarity = "Common"

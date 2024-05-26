@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Skill" load_steps=2 format=3 uid="uid://3lqaagojsg37"]
+
+[ext_resource type="Script" path="res://Skills/SkillScripts/PlayerSkills.gd" id="1_x71id"]
+
+[resource]
+script = ExtResource("1_x71id")
+name = "Mining"
+description = "Your efficiency with mining"
+current_level = 1
+current_experience = 0
