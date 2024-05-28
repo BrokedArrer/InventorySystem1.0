@@ -1,5 +1,4 @@
-extends Node
-
+extends Control
 @export var recipes: Array[CraftingRecipe]
 
 @onready var recipe_button_container = $RecipeButtonContainer

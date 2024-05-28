@@ -1,4 +1,4 @@
-Skill
+ResourceData
 ItemData
 CraftingRecipe
 CraftingRecipeRequirement

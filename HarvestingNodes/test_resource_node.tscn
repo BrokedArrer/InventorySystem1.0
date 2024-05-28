@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://dmcirly1uicp3"]
+
+[ext_resource type="Script" path="res://HarvestingNodes/ResourceNodes/ResourceNodeScripts/ResourceNode.gd" id="1_1cs34"]
+[ext_resource type="Resource" uid="uid://c35tthuxfsisj" path="res://HarvestingNodes/ResourceNodes/ResourceNodeTypes/CopperNode.tres" id="2_7wanm"]
+[ext_resource type="Texture2D" uid="uid://ch18c0haji64j" path="res://Art/ResourceNodeArt/TreeObject.png" id="3_hehxh"]
+
+[node name="TestResourceNode" type="Node2D"]
+position = Vector2(577, 317)
+script = ExtResource("1_1cs34")
+resource_data = ExtResource("2_7wanm")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("3_hehxh")
+
+[node name="PopupMenu" type="PopupMenu" parent="."]
+visible = true
+
+[connection signal="id_pressed" from="PopupMenu" to="." method="_on_popup_menu_id_pressed"]
+[connection signal="index_pressed" from="PopupMenu" to="." method="_on_popup_menu_index_pressed"]

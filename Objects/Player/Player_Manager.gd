@@ -1,7 +1,7 @@
 extends Node
 
-var player
-var player_skills = PlayerSkills.new()
+@onready var player = get_tree().current_scene.get_node("/root/World/Player")
+@onready var player_skills = PlayerSkills.new()
 
 
 

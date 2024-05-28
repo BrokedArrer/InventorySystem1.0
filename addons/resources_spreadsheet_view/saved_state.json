@@ -1,15 +1,22 @@
 {
   "hidden_columns": {
-    "res://Item/Items/ItemTypes/": {
+    "res://HarvestingNodes/ResourceNodes/ResourceNodeResources/": {
       "resource_local_to_scene": true,
       "resource_name": true
     },
-    "res://example/": {
+    "res://Item/Items/ItemTypes/": {
+      "resource_local_to_scene": true,
+      "resource_name": true,
+      "resource_path": true
+    },
+    "res://example/Items/": {
       "resource_local_to_scene": true,
       "resource_name": true
     }
   },
   "recent_paths": [
+    "res://example/Items/",
+    "res://HarvestingNodes/ResourceNodes/ResourceNodeResources/",
     "res://Item/Items/ItemTypes/"
   ],
   "table_functions": {

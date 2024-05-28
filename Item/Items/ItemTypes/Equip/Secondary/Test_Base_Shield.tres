@@ -11,23 +11,9 @@ region = Rect2(208, 1024, 16, 16)
 
 [resource]
 script = ExtResource("1_6s7gr")
-Armor = 1
-MinDamage = 1
-MaxDamage = 2
-Speed = 0
-Strength = 2
-Intelligence = 0
-Dexterity = 0
-Vitality = 0
-Luck = 0
-Health = 5
-Mana = 5
 name = "Wooden Shield"
 description = "A shield made from wood.*TEST ITEM*"
 stackable = false
 texture = SubResource("AtlasTexture_1kcl7")
 type = "Armor"
 rarity = "Rare"
-gold_value = 0
-silver_value = 0
-copper_value = 0

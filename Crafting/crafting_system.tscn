@@ -2,10 +2,13 @@
 
 [ext_resource type="Script" path="res://Crafting/CraftingSystem.gd" id="1_f03t0"]
 
-[node name="CraftingSystem" type="Node"]
+[node name="CraftingSystem" type="Control"]
+layout_mode = 3
+anchors_preset = 0
 script = ExtResource("1_f03t0")
 
 [node name="RecipeButtonContainer" type="GridContainer" parent="."]
+layout_mode = 0
 offset_left = 1006.0
 offset_top = 266.0
 offset_right = 1046.0

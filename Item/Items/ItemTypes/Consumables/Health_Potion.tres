@@ -18,6 +18,3 @@ stackable = true
 texture = SubResource("AtlasTexture_1shab")
 type = "Test"
 rarity = "Test"
-gold_value = 0
-silver_value = 0
-copper_value = 0
