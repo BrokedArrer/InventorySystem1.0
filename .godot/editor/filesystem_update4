@@ -8,5 +8,7 @@ res://Item/Items/ItemTypes/Equip/Main/Test_Base_Sword.tres
 res://Inventory/Inventory Resources/Inventory_Data_Equip.tres
 res://Inventory/Inventory Resources/Inventory_Data_Hotbar.tres
 res://Item/Items/ItemTypes/Materials/Logs.tres
-res://Objects/Player/Player.gd
-res://HarvestingNodes/test_resource_node.tscn
+res://Inventory/InventoryScenes/inventory_ui.tscn
+res://Inventory/InventoryScenes/EquipInventory.tscn
+res://Inventory/InventoryScenes/Inventory.tscn
+res://Objects/Player/Player_Manager.gd

@@ -7,7 +7,7 @@ class_name ItemData
 @export var texture: AtlasTexture
 
 
-@export_enum ("Weapon", "Armor", "Potion", "Quest_Item", "Accessory", "Material")
+@export_enum ("Weapon", "Armor", "Potion", "Quest_Item", "Accessory", "Material", "Currency")
 var type : String = ""
 
 @export_enum("Common", "Uncommon", "Rare", "Epic", "Legendary")

@@ -13,7 +13,8 @@
 			"tasks": [
 				"050ccf2f-8e63-42ef-b455-c0fba45d786f",
 				"1601fe95-33d3-4409-8eda-c9237c51d174",
-				"55d37cce-f697-42b0-a51f-51894cdaefc7"
+				"55d37cce-f697-42b0-a51f-51894cdaefc7",
+				"b687b0b8-57c0-4f8e-a5e1-11c563e4acfe"
 			]
 		},
 		{
@@ -103,6 +104,13 @@
 			"uuid": "55d37cce-f697-42b0-a51f-51894cdaefc7",
 			"title": "Example of Tier'd experience for skills",
 			"description": "extends Node\n\nsignal tree_chopped(tree_type)\n\nfunc _ready() -> void:\n    var skill_manager = get_node(\"/root/SkillManager\")\n    connect(\"tree_chopped\", skill_manager._on_tree_chopped)\n\nfunc _on_tree_chopped(tree_type: String) -> void:\n    var experience_awarded = _get_experience_for_tree(tree_type)\n    skill_manager.award_experience(\"Woodcutting\", experience_awarded)\n\nfunc _get_experience_for_tree(tree_type: String) -> int:\n    # Implement logic to determine the experience awarded based on the tree type\n    match tree_type:\n        \"Oak\":\n            return 25\n        \"Maple\":\n            return 35\n        \"Willow\":\n            return 45\n        # Add more tree types and their corresponding experience values\n        _:\n            return 10 # Default experience for unknown tree types",
+			"category": "65498535-f6bf-4738-aa15-26cee9a44dda",
+			"steps": []
+		},
+		{
+			"uuid": "b687b0b8-57c0-4f8e-a5e1-11c563e4acfe",
+			"title": "Work out the shop and currency system.",
+			"description": "Added functions to playerManager for add and remove currency\n\nAlso created a shopinventory.gd which we will attach inventorydata to.",
 			"category": "65498535-f6bf-4738-aa15-26cee9a44dda",
 			"steps": []
 		}

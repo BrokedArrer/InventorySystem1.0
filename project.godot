@@ -61,6 +61,7 @@ folder_colors={
 "res://Objects/Interactables/": "teal",
 "res://Scenes/": "purple",
 "res://Scripts/": "pink",
+"res://Shops/": "green",
 "res://Skills/": "yellow",
 "res://Themes/": "gray",
 "res://addons/": "red"

@@ -1,3 +1,4 @@
+Gold
 ResourceData
 ItemData
 CraftingRecipe
