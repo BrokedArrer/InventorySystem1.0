@@ -6,6 +6,8 @@ signal inventory_interact(inventory_data: InventoryData, index: int, button:int)
 
 @export var slots: Array[SlotData]
 
+
+
 func grab_slot_data(index: int) -> SlotData:
 	var slot_data = slots[index]
 	
@@ -19,15 +21,16 @@ func grab_slot_data(index: int) -> SlotData:
 func drop_slot_data(grabbed_slot_data: SlotData, index: int) -> SlotData:
 	var slot_data = slots[index]
 	var return_slot_data: SlotData
-
 	if slot_data and slot_data.item_data == grabbed_slot_data.item_data:
 		# Merge the stacks
 		var remaining_quantity: int = grabbed_slot_data.quantity
-		var merge_quantity: int = min(remaining_quantity, slot_data.MAX_STACK_SIZE - slot_data.quantity)
-
+		var merge_quantity: int
+		if slot_data.item_data.is_currency():
+			merge_quantity = remaining_quantity
+		else:
+			merge_quantity = min(remaining_quantity, slot_data.MAX_STACK_SIZE - slot_data.quantity)
 		slot_data.quantity += merge_quantity
 		remaining_quantity -= merge_quantity
-
 		if remaining_quantity > 0:
 			grabbed_slot_data.quantity = remaining_quantity
 			return_slot_data = grabbed_slot_data
@@ -37,7 +40,6 @@ func drop_slot_data(grabbed_slot_data: SlotData, index: int) -> SlotData:
 		# Replace the slot with the grabbed slot data
 		slots[index] = grabbed_slot_data
 		return_slot_data = slot_data
-
 	inventory_updated.emit(self)
 	return return_slot_data
 	

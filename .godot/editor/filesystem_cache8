@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1716935847
+::res://::1716936301
 icon.svg::CompressedTexture2D::1593331976106167596::1716609671::1716609739::1::::<><>::
 ::res://addons/::1716844654
 ::res://addons/cba/::1716845089
@@ -120,7 +120,7 @@ start.tscn::PackedScene::2692091061628401710::1716763104::0::1::::<><>::res://ad
 autosize_label.gd::GDScript::-1::1716763104::0::1::::<>Label<>::
 task.gd::GDScript::-1::1716763104::0::1::::<>MarginContainer<>::res://addons/kanban_tasks/plugin_singleton/singletons.gd<>res://addons/kanban_tasks/view/shortcuts.gd<>res://addons/kanban_tasks/view/edit_context.gd<>res://addons/kanban_tasks/view/filter.gd<>res://addons/kanban_tasks/data/board.gd<>res://addons/kanban_tasks/edit_label/edit_label.gd<>res://addons/kanban_tasks/expand_button/expand_button.gd<>res://addons/kanban_tasks/data/task.gd<>res://addons/kanban_tasks/view/details/details.gd<>res://addons/kanban_tasks/view/details/step_holder.gd<>res://addons/kanban_tasks/view/tooltip.gd<>res://addons/kanban_tasks/view/category/category_popup_menu.gd
 task.tscn::PackedScene::5508831843714498441::1716763104::0::1::::<><>::res://addons/kanban_tasks/view/task/task.gd<>res://addons/kanban_tasks/edit_label/edit_label.gd<>res://addons/kanban_tasks/view/task/autosize_label.gd<>uid://bwi22eyrmeeet::::res://addons/kanban_tasks/view/details/details.tscn<>uid://dwjg5vyxx4g48::::res://addons/kanban_tasks/view/details/step_holder.tscn<>res://addons/kanban_tasks/expand_button/expand_button.gd
-::res://addons/resources_spreadsheet_view/::1716935847
+::res://addons/resources_spreadsheet_view/::1716936301
 editor_color_setter.gd::GDScript::-1::1716844126::0::1::::<>Control<>::
 editor_icon_button.gd::GDScript::-1::1716844126::0::1::::<>Button<>::
 editor_view.gd::GDScript::-1::1716844126::0::1::::<>Control<>::
@@ -128,7 +128,7 @@ editor_view.tscn::PackedScene::1359036348667950850::1716844126::0::1::::<><>::re
 LICENSE.md::TextFile::-1::1716844126::0::1::::<><>::
 plugin.cfg::TextFile::-1::1716844127::0::1::::<><>::
 plugin.gd::GDScript::-1::1716844127::0::1::::<>EditorPlugin<>::
-saved_state.json::JSON::-1::1716935847::0::1::::<><>::
+saved_state.json::JSON::-1::1716936301::0::1::::<><>::
 settings_grid.gd::GDScript::-1::1716844127::0::1::::<>GridContainer<>::
 settings_grid.tscn::PackedScene::226255947765552484::1716844127::0::1::::<><>::res://addons/resources_spreadsheet_view/settings_grid.gd
 text_editing_utils.gd::GDScript::-1::1716844127::0::1::::<>RefCounted<>::
@@ -460,17 +460,17 @@ Stick.tres::Resource/Resource::4487180793427258541::1716844525::0::1::::<><>::re
 chest.tscn::PackedScene::970553015387223372::1716609680::0::1::::<><>::res://Objects/InteractableScripts/Chest.gd
 ::res://Objects/InteractableScripts/::1716640550
 Chest.gd::GDScript::-1::1716609679::0::1::::<>StaticBody2D<>::res://Inventory/Inventory_Data.gd
-::res://Objects/Player/::1716894897
+::res://Objects/Player/::1716936039
 Player.gd::GDScript::-1::1716891621::0::1::::Player<>CharacterBody2D<>::res://Inventory/InventoryScripts/Inventory_Data.gd<>res://Inventory/InventoryScripts/Inventory_Data_Equip.gd<>res://Inventory/InventoryScripts/Inventory_Data_Hotbar.gd
 Player.tscn::PackedScene::4932919055033233324::1716854031::0::1::::<><>::uid://c11omk4dyrwg7::::res://Art/Character v.2/NewCharAnims/CharIdles.png<>res://Objects/Player/Player.gd
 Player_Manager.gd::GDScript::-1::1716936039::0::1::::<>Node<>::res://Skills/SkillScripts/PlayerSkills.gd<>res://Inventory/InventoryScripts/Slot_Data.gd
-::res://Scenes/::1716935924
+::res://Scenes/::1716936039
 Camera2D.gd::GDScript::-1::1716609680::0::1::::<>Camera2D<>::
 world.gd::GDScript::-1::1716848924::0::1::::<>Node2D<>::
 world.tscn::PackedScene::5843714428282428657::1716936039::0::1::::<><>::res://Scenes/world.gd<>uid://xs3qvuxf613j::::res://Art/RavenFantastyArtBundle/Raven Fantasy - 2D PixelArt Tileset and Sprites - Green Forest 2/All Tileset/16X16.png<>uid://ccjsprjwex7ye::::res://Objects/Player/Player.tscn<>uid://bubbb1fgvolje::::res://Crafting/crafting_system.tscn<>uid://dbs1uxhxnebv8::::res://Inventory/InventoryScenes/inventory_ui.tscn<>uid://beaevpmksat1j::::res://Inventory/Inventory Resources/Inventory.tres<>res://Scenes/Camera2D.gd<>res://Inventory/InventoryScripts/Inventory_Data.gd<>res://Inventory/InventoryScripts/Slot_Data.gd<>uid://n3e4prthg1iu::::res://Objects/Interactables/chest.tscn<>uid://diwfpifv1tj6o::::res://Inventory/Inventory Resources/Inventory_Data_Equip.tres<>res://Item/Item_Data.gd<>uid://c7ofd8bhutpdk::::res://Inventory/Inventory Resources/Inventory_Data_Hotbar.tres<>uid://5b0aqh75gyr4::::res://Item/ItemAtlas'/ItemAtlas'Sprites/16x16/Loot and Treasure.png<>uid://dmcirly1uicp3::::res://HarvestingNodes/test_resource_node.tscn
 ::res://Scripts/::1716753932
-::res://Shops/::1716893820
-ShopInventory.gd::GDScript::-1::1716893820::0::1::::<>RefCounted<>::
+::res://Shops/::1716936085
+ShopInventory-TEST-.gd::GDScript::-1::1716893820::0::1::::<>RefCounted<>::
 ::res://Skills/::1716763104
 ::res://Skills/SkillResources/::1716763104
 Mining.tres::Resource/Resource::1988967258961492560::1716763104::0::1::::<><>::res://Skills/SkillScripts/PlayerSkills.gd

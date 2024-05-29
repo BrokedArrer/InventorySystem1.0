@@ -1,3 +1,4 @@
+Label
 GridContainer
 PopupMenu
 Sprite2D
@@ -9,6 +10,5 @@ Control
 Button
 Node
 VBoxContainer
-Label
 TextureRect
 Panel

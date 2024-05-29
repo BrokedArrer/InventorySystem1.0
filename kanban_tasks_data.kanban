@@ -14,13 +14,16 @@
 				"050ccf2f-8e63-42ef-b455-c0fba45d786f",
 				"1601fe95-33d3-4409-8eda-c9237c51d174",
 				"55d37cce-f697-42b0-a51f-51894cdaefc7",
-				"b687b0b8-57c0-4f8e-a5e1-11c563e4acfe"
+				"b687b0b8-57c0-4f8e-a5e1-11c563e4acfe",
+				"9b2a19f1-9f0a-4d1d-8765-0743eabc3ca4"
 			]
 		},
 		{
 			"uuid": "2bf0ed6e-c093-435b-b1ec-770ef359ed51",
 			"title": "Doing",
-			"tasks": []
+			"tasks": [
+				"94f8ecc9-808f-44d3-a312-181543326202"
+			]
 		},
 		{
 			"uuid": "900d070b-7eb2-4978-beec-41c78e51cbfd",
@@ -32,7 +35,8 @@
 				"aca4e712-ea2e-4101-a079-7f8048f519ef",
 				"94cb5983-8e52-4ba1-a196-9aa4e29e8eec",
 				"73bba6c9-e7d1-47c7-9117-84da396fe9bf",
-				"58ef0817-c740-4e71-868c-2c4f5df7ee10"
+				"58ef0817-c740-4e71-868c-2c4f5df7ee10",
+				"32fda1ce-e44b-4193-8940-323e4467dd2e"
 			]
 		}
 	],
@@ -109,8 +113,29 @@
 		},
 		{
 			"uuid": "b687b0b8-57c0-4f8e-a5e1-11c563e4acfe",
-			"title": "Work out the shop and currency system.",
+			"title": "Work out the shop system",
 			"description": "Added functions to playerManager for add and remove currency\n\nAlso created a shopinventory.gd which we will attach inventorydata to.",
+			"category": "65498535-f6bf-4738-aa15-26cee9a44dda",
+			"steps": []
+		},
+		{
+			"uuid": "32fda1ce-e44b-4193-8940-323e4467dd2e",
+			"title": "Added Gold Coin Currency.",
+			"description": "Gold Coins are no longer limited to a max stack size. They are capable of stacking to max_int size.\nGold coins also no longer display their quantity via a stacksize label instead show it in the Tooltip. ",
+			"category": "65498535-f6bf-4738-aa15-26cee9a44dda",
+			"steps": []
+		},
+		{
+			"uuid": "9b2a19f1-9f0a-4d1d-8765-0743eabc3ca4",
+			"title": "Add double click to group stackable items.",
+			"description": "Add a way to double click an item, and if there is unfull stacks that match the itemdata, merge them to max stack size and return the remaining to a new slot or grabbed slot",
+			"category": "65498535-f6bf-4738-aa15-26cee9a44dda",
+			"steps": []
+		},
+		{
+			"uuid": "94f8ecc9-808f-44d3-a312-181543326202",
+			"title": "Add skill exp to player for crafting items",
+			"description": "",
 			"category": "65498535-f6bf-4738-aa15-26cee9a44dda",
 			"steps": []
 		}

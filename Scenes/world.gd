@@ -38,13 +38,14 @@ func toggle_inventory_interface(external_inventory_owner = null) -> void:
 
 #Method below, is a example how to add a new item with a button and award experience.
 func _on_button_pressed():
-	#var item: ItemData = preload('res://Item/Items/ItemTypes/Materials/Logs.tres')
+	#var item: ItemData = preload('res://Item/Currency/Gold_Coin.tres')
 	#var slot_data = SlotData.new()
 	#slot_data.item_data = item
+	#slot_data.quantity = 1203
 	#player.inventory_data.pick_up_slot_data(slot_data)
 	#PlayerManager.increase_skill_exp("Woodcutting", 10)
 	#print(PlayerManager.get_skill_exp("Woodcutting"))
-		# Call the harvest function of the ResourceNode
+		# Call the harvest function of the ResourceNode\
 	var resource_node = $TestResourceNode
 	var result = resource_node.harvest()
 

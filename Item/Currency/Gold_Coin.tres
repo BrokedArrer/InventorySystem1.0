@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://dfhpuk3umw5ic"]
+
+[ext_resource type="Script" path="res://Item/Item_Data.gd" id="1_yvc5q"]
+[ext_resource type="Texture2D" uid="uid://5b0aqh75gyr4" path="res://Item/ItemAtlas'/ItemAtlas'Sprites/16x16/Loot and Treasure.png" id="2_jqtnj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_07aj6"]
+atlas = ExtResource("2_jqtnj")
+region = Rect2(112, 208, 16, 16)
+
+[resource]
+script = ExtResource("1_yvc5q")
+name = "Gold Coins"
+description = "The shiny, gold coin."
+stackable = true
+texture = SubResource("AtlasTexture_07aj6")
+type = "Currency"
+rarity = "Common"

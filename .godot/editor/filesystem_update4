@@ -8,7 +8,15 @@ res://Item/Items/ItemTypes/Equip/Main/Test_Base_Sword.tres
 res://Inventory/Inventory Resources/Inventory_Data_Equip.tres
 res://Inventory/Inventory Resources/Inventory_Data_Hotbar.tres
 res://Item/Items/ItemTypes/Materials/Logs.tres
+res://Inventory/InventoryScripts/Slot_Data.gd
+res://Item/Currency/Gold_Coin.tres
+res://Item/ItemAtlas'/Chest_Atlas.tres
 res://Inventory/InventoryScenes/inventory_ui.tscn
 res://Inventory/InventoryScenes/EquipInventory.tscn
 res://Inventory/InventoryScenes/Inventory.tscn
+res://Inventory/InventoryScripts/Coin_Slot.gd
+res://Inventory/InventoryScripts/Inventory_Data.gd
+res://Scenes/world.gd
 res://Objects/Player/Player_Manager.gd
+res://Item/Item_Data.gd
+res://Inventory/InventoryScripts/Slot.gd

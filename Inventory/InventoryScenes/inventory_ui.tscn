@@ -21,10 +21,10 @@ script = ExtResource("2_wfl23")
 
 [node name="PlayerInventory" parent="InventoryInterface" instance=ExtResource("3_eeax8")]
 layout_mode = 0
-offset_left = 36.0
-offset_top = 399.0
-offset_right = 68.0
-offset_bottom = 415.0
+offset_left = 1.00001
+offset_top = 303.0
+offset_right = 33.0
+offset_bottom = 319.0
 
 [node name="GrabbedSlot" parent="InventoryInterface" instance=ExtResource("4_jx3xw")]
 visible = false
@@ -39,10 +39,8 @@ scale = Vector2(0.6, 0.6)
 [node name="EquipInventory" parent="InventoryInterface" instance=ExtResource("5_nq2fr")]
 z_index = -1
 layout_mode = 0
-offset_left = 35.0
-offset_top = 233.0
-offset_right = 251.0
-offset_bottom = 399.0
+offset_top = 137.0
+offset_bottom = 303.0
 scale = Vector2(1, 1)
 
 [node name="ExternalInventory" parent="InventoryInterface" instance=ExtResource("6_015ts")]

@@ -8,13 +8,19 @@ signal slot_clicked(index: int, button:int)
 func set_slot_data(slot_data: SlotData) -> void:
 	var item_data = slot_data.item_data
 	texture_rect.texture = item_data.texture
-	tooltip_text = "%s\n%s" % [item_data.name, item_data.description]
-		
-	if slot_data.quantity > 1:
-		quantity_label.text = "x%s" % slot_data.quantity
-		quantity_label.show()
-	else:
+	
+	# Adjust tooltip text to include quantity for currency items
+	if item_data.is_currency():
+		tooltip_text = "%s\n%s\nQuantity: %s" % [item_data.name, item_data.type, slot_data.quantity]
 		quantity_label.hide()
+	else:
+		tooltip_text = "%s\n%s" % [item_data.name, item_data.description]
+		
+		if slot_data.quantity > 1:
+			quantity_label.text = "x%s" % slot_data.quantity
+			quantity_label.show()
+		else:
+			quantity_label.hide()
 
 func _on_gui_input(event):
 	if event is InputEventMouseButton \

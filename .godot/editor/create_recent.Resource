@@ -1,6 +1,5 @@
-Gold
-ResourceData
 ItemData
+ResourceData
 CraftingRecipe
 CraftingRecipeRequirement
 AtlasTexture

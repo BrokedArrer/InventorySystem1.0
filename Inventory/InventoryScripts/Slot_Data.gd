@@ -7,11 +7,15 @@ const MAX_STACK_SIZE: int = 99
 @export_range(1, MAX_STACK_SIZE) var quantity: int = 1: set = set_quantity
 
 func can_merge_with(other_slot_data: SlotData) -> bool:
+	if item_data.is_currency() or other_slot_data.item_data.is_currency():
+		return item_data == other_slot_data.item_data
 	return item_data == other_slot_data.item_data \
 			and item_data.stackable \
 			and quantity < MAX_STACK_SIZE
 
 func can_fully_merge_with(other_slot_data: SlotData) -> bool:
+	if item_data.is_currency() or other_slot_data.item_data.is_currency():
+		return item_data == other_slot_data.item_data
 	return item_data == other_slot_data.item_data \
 			and item_data.stackable \
 			and quantity + other_slot_data.quantity <= MAX_STACK_SIZE
@@ -28,7 +32,10 @@ func create_single_slot_data() -> SlotData:
 
 
 func set_quantity(value: int) -> void:
-	quantity = value
-	if quantity > 1 and not item_data.stackable:
-		quantity = 1
-		push_error("%s is not stackable. Setting quantity to 1" % item_data.name)
+	if item_data.is_currency():
+		quantity = value
+	else:
+		quantity = value
+		if quantity > 1 and not item_data.stackable:
+			quantity = 1
+			push_error("%s is not stackable. Setting quantity to 1" % item_data.name)

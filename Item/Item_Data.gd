@@ -19,3 +19,5 @@ func use(_target) -> void:
 	pass
 
 
+func is_currency() -> bool:
+	return type == "Currency"

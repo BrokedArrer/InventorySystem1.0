@@ -4,7 +4,6 @@ extends Node
 @onready var player_skills = PlayerSkills.new()
 
 
-
 func use_slot_data(slot_data: SlotData) -> void:
 	slot_data.item_data.use(player)
 
