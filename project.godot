@@ -29,11 +29,16 @@ config/icon="res://icon.svg"
 [autoload]
 
 PlayerManager="*res://Objects/Player/Player_Manager.gd"
+DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
 
 [dialogue_manager]
 
-general/states=["state", "Shortcuts"]
-general/balloon_path="res://Dialogue/Balloons/balloon.tscn"
+general/states=["state", "Shortcuts", "PlayerManager"]
+general/balloon_path="res://addons/dialogue_manager/example_balloon/small_example_balloon.tscn"
+
+[dialogue_quest]
+
+data_directory=&"res://dialogue_quest/"
 
 [display]
 
@@ -63,8 +68,7 @@ folder_colors={
 "res://Scripts/": "pink",
 "res://Shops/": "green",
 "res://Skills/": "yellow",
-"res://Themes/": "gray",
-"res://addons/": "red"
+"res://Themes/": "gray"
 }
 
 [gui]
@@ -135,15 +139,21 @@ down={
 "events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":83,"key_label":0,"unicode":115,"location":0,"echo":false,"script":null)
 ]
 }
+interact={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":32,"key_label":0,"unicode":32,"location":0,"echo":false,"script":null)
+]
+}
 
 [internationalization]
 
-locale/translations_pot_files=PackedStringArray("res://Dialogue/Dialogues/Dialogue1.dialogue", "res://Dialogue/Dialogues/main.dialogue", "res://Dialogue/Dialogues/get_rock_quest.dialogue")
+locale/translations_pot_files=PackedStringArray("res://wtf.dialogue")
 
 [layer_names]
 
 2d_physics/layer_3="Actionables"
 2d_physics/layer_4="Hitboxes"
+2d_physics/layer_5="Actionables"
 
 [rendering]
 

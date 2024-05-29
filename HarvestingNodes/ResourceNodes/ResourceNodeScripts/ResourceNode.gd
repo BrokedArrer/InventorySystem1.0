@@ -6,7 +6,7 @@ class_name ResourceNode
 @export var resource_data: ResourceData
 
 @onready var _pm = $PopupMenu
-var _last_mouse_position
+#var _last_mouse_position
 
 enum PopupIds {
 	HARVEST,

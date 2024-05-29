@@ -65,7 +65,8 @@ func on_inventory_interact(inventory_data: InventoryData,
 		[_, MOUSE_BUTTON_RIGHT]:
 			grabbed_slot_data = inventory_data.drop_single_slot_data(grabbed_slot_data, index)
 	update_grabbed_slot()
-	
+
+
 func update_grabbed_slot() -> void:
 	if grabbed_slot_data:
 		grabbed_slot.show()

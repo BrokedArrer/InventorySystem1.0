@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=4 uid="uid://cpi0ega0q3ljt"]
+[gd_scene load_steps=24 format=4 uid="uid://cpi0ega0q3ljt"]
 
 [ext_resource type="Script" path="res://Scenes/world.gd" id="1_3t3uk"]
 [ext_resource type="Texture2D" uid="uid://xs3qvuxf613j" path="res://Art/RavenFantastyArtBundle/Raven Fantasy - 2D PixelArt Tileset and Sprites - Green Forest 2/All Tileset/16X16.png" id="1_efucq"]
@@ -15,6 +15,7 @@
 [ext_resource type="Resource" uid="uid://c7ofd8bhutpdk" path="res://Inventory/Inventory Resources/Inventory_Data_Hotbar.tres" id="12_7vi5w"]
 [ext_resource type="Texture2D" uid="uid://5b0aqh75gyr4" path="res://Item/ItemAtlas'/ItemAtlas'Sprites/16x16/Loot and Treasure.png" id="13_c7hw8"]
 [ext_resource type="PackedScene" uid="uid://dmcirly1uicp3" path="res://HarvestingNodes/test_resource_node.tscn" id="15_6a66t"]
+[ext_resource type="PackedScene" uid="uid://7m72o8lx4i00" path="res://Scenes/actionable.tscn" id="15_e3o5g"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_30f7p"]
 texture = ExtResource("1_efucq")
@@ -353,6 +354,8 @@ quantity = 1
 script = ExtResource("6_h0owe")
 slots = Array[ExtResource("8_gbe35")]([SubResource("Resource_5s1pt"), null, null, null, null, null])
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3us7s"]
+
 [node name="World" type="Node2D"]
 y_sort_enabled = true
 script = ExtResource("1_3t3uk")
@@ -395,6 +398,12 @@ target = NodePath("../Player")
 [node name="Chest" parent="." instance=ExtResource("8_jdspc")]
 position = Vector2(352, 199)
 inventory_data = SubResource("Resource_4ov8j")
+
+[node name="Actionable" parent="Chest" instance=ExtResource("15_e3o5g")]
+collision_layer = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Chest/Actionable"]
+shape = SubResource("RectangleShape2D_3us7s")
 
 [node name="TestResourceNode" parent="." instance=ExtResource("15_6a66t")]
 position = Vector2(400, 176)

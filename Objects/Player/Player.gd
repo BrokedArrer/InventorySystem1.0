@@ -6,6 +6,7 @@ signal toggle_inventory()
 @export var inventory_data: InventoryData
 @export var equip_inventory_data: InventoryDataEquip
 @export var hotbar_inventory_data: InventoryDataHotbar
+@onready var actionable_finder = $Direction/ActionableFinder
 
 var speed = 100
 var direction: Vector2 = Vector2.ZERO
@@ -17,10 +18,14 @@ var smooth_time: float = 0.2
 func _unhandled_input(_event: InputEvent):
 	if Input.is_action_just_pressed("Inventory"):
 		toggle_inventory.emit()
+	if Input.is_action_just_pressed('interact'):
+		var actionables = actionable_finder.get_overlapping_areas()
+		if actionables.size() > 0:
+			actionables[0].action()
+			return
 
 
-
-func _process(delta):
+func _process(_delta):
 	hotbar_controls()
 
 	# Check if the left mouse button is pressed.
@@ -38,7 +43,7 @@ func _process(delta):
 
 
 
-func _physics_process(delta):
+func _physics_process(_delta):
 	if is_moving:
 		# Check if the player has reached the target position.
 		if position.distance_to(target_position) < 1:
