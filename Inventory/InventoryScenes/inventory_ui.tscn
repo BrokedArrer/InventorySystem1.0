@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://dbs1uxhxnebv8"]
+[gd_scene load_steps=9 format=3 uid="uid://dbs1uxhxnebv8"]
 
 [ext_resource type="Theme" uid="uid://d20a5atje1klx" path="res://Themes/FontTheme.tres" id="1_36vus"]
 [ext_resource type="Script" path="res://Inventory/InventoryScripts/Inventory_Interface.gd" id="2_wfl23"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://bd3cprxbqi86q" path="res://Inventory/InventoryScenes/EquipInventory.tscn" id="5_nq2fr"]
 [ext_resource type="PackedScene" uid="uid://4opxibybt3ui" path="res://Inventory/InventoryScenes/ExternalInventory.tscn" id="6_015ts"]
 [ext_resource type="PackedScene" uid="uid://bps64iuxhpw05" path="res://Inventory/InventoryScenes/HotBarInventory.tscn" id="7_akc5h"]
+[ext_resource type="Script" path="res://Inventory/InventoryScenes/player_gold_label.gd" id="8_j8top"]
 
 [node name="InventoryUI" type="CanvasLayer"]
 
@@ -47,10 +48,10 @@ scale = Vector2(1, 1)
 visible = false
 z_index = -1
 layout_mode = 0
-offset_left = 254.0
-offset_top = 233.0
-offset_right = 388.0
-offset_bottom = 335.0
+offset_left = 446.0
+offset_top = 303.0
+offset_right = 580.0
+offset_bottom = 405.0
 
 [node name="HotBarInventory" parent="." instance=ExtResource("7_akc5h")]
 z_index = -1
@@ -68,6 +69,15 @@ grow_vertical = 0
 size_flags_horizontal = 4
 size_flags_vertical = 8
 theme = ExtResource("1_36vus")
+
+[node name="PlayerGoldLabel" type="Label" parent="."]
+offset_left = 217.0
+offset_top = 279.0
+offset_right = 257.0
+offset_bottom = 301.0
+text = "999"
+horizontal_alignment = 1
+script = ExtResource("8_j8top")
 
 [connection signal="gui_input" from="InventoryInterface" to="InventoryInterface" method="_on_gui_input"]
 [connection signal="visibility_changed" from="InventoryInterface" to="InventoryInterface" method="_on_visibility_changed"]

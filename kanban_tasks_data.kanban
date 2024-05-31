@@ -21,9 +21,7 @@
 		{
 			"uuid": "2bf0ed6e-c093-435b-b1ec-770ef359ed51",
 			"title": "Doing",
-			"tasks": [
-				"94f8ecc9-808f-44d3-a312-181543326202"
-			]
+			"tasks": []
 		},
 		{
 			"uuid": "900d070b-7eb2-4978-beec-41c78e51cbfd",
@@ -36,7 +34,8 @@
 				"94cb5983-8e52-4ba1-a196-9aa4e29e8eec",
 				"73bba6c9-e7d1-47c7-9117-84da396fe9bf",
 				"58ef0817-c740-4e71-868c-2c4f5df7ee10",
-				"32fda1ce-e44b-4193-8940-323e4467dd2e"
+				"32fda1ce-e44b-4193-8940-323e4467dd2e",
+				"94f8ecc9-808f-44d3-a312-181543326202"
 			]
 		}
 	],
@@ -121,7 +120,7 @@
 		{
 			"uuid": "32fda1ce-e44b-4193-8940-323e4467dd2e",
 			"title": "Added Gold Coin Currency.",
-			"description": "Gold Coins are no longer limited to a max stack size. They are capable of stacking to max_int size.\nGold coins also no longer display their quantity via a stacksize label instead show it in the Tooltip. ",
+			"description": "Gold Coins are no longer limited to a max stack size. They are capable of stacking to max_int size.\nGold coins also no longer display their quantity via a stacksize label instead show it in the Tooltip. \n\nAdded a way to calculate all the gold coins in the player inventory and update a label displaying total gold. \n\nThis will also help with being able to access the players total gold for shop system.",
 			"category": "65498535-f6bf-4738-aa15-26cee9a44dda",
 			"steps": []
 		},

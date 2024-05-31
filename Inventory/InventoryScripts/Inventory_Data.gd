@@ -7,6 +7,10 @@ signal inventory_interact(inventory_data: InventoryData, index: int, button:int)
 @export var slots: Array[SlotData]
 
 
+var player_gold: int = 0
+
+func _ready():
+	calculate_player_gold()
 
 func grab_slot_data(index: int) -> SlotData:
 	var slot_data = slots[index]
@@ -14,6 +18,7 @@ func grab_slot_data(index: int) -> SlotData:
 	if slot_data:
 		slots[index] = null
 		inventory_updated.emit(self)
+		calculate_player_gold()
 		return slot_data
 	else:
 		return null
@@ -41,6 +46,7 @@ func drop_slot_data(grabbed_slot_data: SlotData, index: int) -> SlotData:
 		slots[index] = grabbed_slot_data
 		return_slot_data = slot_data
 	inventory_updated.emit(self)
+	calculate_player_gold()
 	return return_slot_data
 	
 func drop_single_slot_data(grabbed_slot_data: SlotData, index: int) -> SlotData:
@@ -52,6 +58,7 @@ func drop_single_slot_data(grabbed_slot_data: SlotData, index: int) -> SlotData:
 		slot_data.fully_merge_with(grabbed_slot_data.create_single_slot_data())
 	
 	inventory_updated.emit(self)
+	calculate_player_gold()
 	
 	if grabbed_slot_data.quantity > 0:
 		return grabbed_slot_data
@@ -74,18 +81,24 @@ func use_slot_data(index: int) -> void:
 	PlayerManager.use_slot_data(slot_data)
 	
 	inventory_updated.emit(self)
-	
+	calculate_player_gold()
+
+
+
+
 func pick_up_slot_data(slot_data: SlotData) -> bool:
 	for index in slots.size():
 		if slots[index] and slots[index].can_fully_merge_with(slot_data):
 			slots[index].fully_merge_with(slot_data)
 			inventory_updated.emit(self)
+			calculate_player_gold()
 			return true
 			
 	for index in slots.size():
 		if not slots[index]:
 			slots[index] = slot_data
 			inventory_updated.emit(self)
+			calculate_player_gold()
 			return true
 	
 	return false
@@ -93,3 +106,10 @@ func pick_up_slot_data(slot_data: SlotData) -> bool:
 func on_slot_clicked(index: int, button:int) -> void:
 	inventory_interact.emit(self, index, button)
 
+func calculate_player_gold() -> void:
+	player_gold = 0
+	
+	for slot_data in slots:
+		if slot_data and slot_data.item_data.is_currency():
+			player_gold += slot_data.quantity
+			print(player_gold)

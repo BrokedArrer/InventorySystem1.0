@@ -13,5 +13,6 @@ name = "Gold Coins"
 description = "The shiny, gold coin."
 stackable = true
 texture = SubResource("AtlasTexture_07aj6")
+gold_value = 1
 type = "Currency"
 rarity = "Common"

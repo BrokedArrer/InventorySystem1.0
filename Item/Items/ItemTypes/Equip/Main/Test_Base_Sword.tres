@@ -15,5 +15,6 @@ name = "Test Sword"
 description = "A sword made from iron.*TEST ITEM*"
 stackable = false
 texture = SubResource("AtlasTexture_e13dp")
+gold_value = 1
 type = ""
 rarity = "Common"

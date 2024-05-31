@@ -15,5 +15,6 @@ name = "Leather Leggings"
 description = "Some leggings made of leather.*TEST ITEM*"
 stackable = false
 texture = SubResource("AtlasTexture_mcb0y")
+gold_value = 1
 type = ""
 rarity = "Common"

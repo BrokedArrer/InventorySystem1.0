@@ -5,6 +5,7 @@ class_name ItemData
 @export_multiline var description: String = ""
 @export var stackable: bool = false
 @export var texture: AtlasTexture
+@export var gold_value: int = 1
 
 
 @export_enum ("Weapon", "Armor", "Potion", "Quest_Item", "Accessory", "Material", "Currency")

@@ -13,5 +13,6 @@ name = "Logs"
 description = "A stack of Logs."
 stackable = true
 texture = SubResource("AtlasTexture_0g0wl")
+gold_value = 1
 type = "Material"
 rarity = "Common"

@@ -1,12 +1,12 @@
 [gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_14c8s"]
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_ogdxc"]
 
 [resource]
-script = ExtResource("1_14c8s")
+script = ExtResource("1_ogdxc")
 using_states = PackedStringArray()
 titles = {
-"this_is_a_node_title": "3"
+"start": "3"
 }
 character_names = PackedStringArray("Nathan")
 first_title = "3"
@@ -14,7 +14,7 @@ lines = {
 "1": {
 "id": "1",
 "next_id": "3",
-"text": "this_is_a_node_title",
+"text": "start",
 "type": &"title"
 },
 "10": {
@@ -139,7 +139,7 @@ lines = {
 "type": &"response"
 }
 }
-raw_text = "~ this_is_a_node_title
+raw_text = "~ start
 
 Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
 Nathan: Here are some choices.
@@ -147,7 +147,7 @@ Nathan: Here are some choices.
 	Nathan: You picked the first one.
 - Second one
 	Nathan: You picked the second one.
-- Start again => this_is_a_node_title
+- Start again => start
 - End the conversation => END
 Nathan: For more information see the online documentation.
 

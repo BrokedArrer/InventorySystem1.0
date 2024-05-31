@@ -1,7 +1,8 @@
+Button
+Label
 CollisionShape2D
 Area2D
 Marker2D
-Label
 GridContainer
 PopupMenu
 Sprite2D
@@ -9,6 +10,5 @@ CharacterBody2D
 TileMapLayer
 Node2D
 Control
-Button
 Node
 VBoxContainer

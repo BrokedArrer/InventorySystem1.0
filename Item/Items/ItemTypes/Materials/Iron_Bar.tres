@@ -13,5 +13,6 @@ name = "Iron Bar"
 description = "A bar of Iron for crafting."
 stackable = true
 texture = SubResource("AtlasTexture_fd5b6")
+gold_value = 1
 type = "Material"
 rarity = "Common"

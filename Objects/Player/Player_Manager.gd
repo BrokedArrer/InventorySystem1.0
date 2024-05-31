@@ -14,6 +14,7 @@ func get_global_position() -> Vector2:
 func _ready():
 	player_skills.connect("skill_leveled_up", Callable(self, "_on_skill_leveled_up"))
 	print_player_skills()
+	
 
 func get_skill_level(skill_name):
 	return player_skills.get_skill_level(skill_name)
@@ -36,3 +37,5 @@ func print_player_skills():
 		var skill_level = get_skill_level(skill_name)
 		var skill_exp = get_skill_exp(skill_name)
 		print("%s: Level %d, Experience %d" % [skill_name, skill_level, skill_exp])
+		
+

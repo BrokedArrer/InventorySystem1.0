@@ -14,5 +14,6 @@ name = "Beginner Trinket"
 description = "A beginner's trinket.*TEST ITEM*"
 stackable = false
 texture = SubResource("AtlasTexture_28g5d")
-type = ""
+gold_value = 43
+type = "Accessory"
 rarity = "Common"

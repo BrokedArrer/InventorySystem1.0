@@ -30,6 +30,8 @@ config/icon="res://icon.svg"
 
 PlayerManager="*res://Objects/Player/Player_Manager.gd"
 DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
+DialogueQuest="*res://addons/dialogue_quest/scripts/dialogue_quest_interface.gd"
+QuestSystem="*res://addons/quest_system/quest_manager.gd"
 
 [dialogue_manager]
 
@@ -51,13 +53,14 @@ window/stretch/aspect="expand"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/ColorPreview/plugin.cfg", "res://addons/godot_owl/plugin.cfg", "res://addons/kanban_tasks/plugin.cfg", "res://addons/resources_spreadsheet_view/plugin.cfg", "res://addons/weighted_choice/plugin.cfg")
+enabled=PackedStringArray("res://addons/ColorPreview/plugin.cfg", "res://addons/dialogue_manager/plugin.cfg", "res://addons/godot_owl/plugin.cfg", "res://addons/kanban_tasks/plugin.cfg", "res://addons/quest_system/plugin.cfg", "res://addons/resources_spreadsheet_view/plugin.cfg", "res://addons/weighted_choice/plugin.cfg")
 
 [file_customization]
 
 folder_colors={
 "res://Art/": "orange",
 "res://Crafting/": "teal",
+"res://Dialogue/": "red",
 "res://HarvestingNodes/": "blue",
 "res://Inventory/": "teal",
 "res://Item/": "teal",
@@ -147,7 +150,7 @@ interact={
 
 [internationalization]
 
-locale/translations_pot_files=PackedStringArray("res://wtf.dialogue")
+locale/translations_pot_files=PackedStringArray("res://Dialogue/Test.dialogue")
 
 [layer_names]
 

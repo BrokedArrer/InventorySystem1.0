@@ -1,7 +1,9 @@
-ea4bc82a6ad023ab7ee23ee620429895
-::res://::1717025851
+98a70190bc03ec62debef81a9418c486
+::res://::1717147076
 icon.svg::CompressedTexture2D::1593331976106167596::1716609671::1716609739::1::::<><>::
-::res://addons/::1717023898
+test_shop_button.gd::GDScript::-1::1717116289::0::1::::<>Node2D<>::res://Inventory/InventoryScripts/Slot_Data.gd<>res://Objects/Player/Player_Manager.gd
+test_shop_button.tscn::PackedScene::8061343092296567534::1717115201::0::1::::<><>::res://test_shop_button.gd
+::res://addons/::1717115855
 ::res://addons/cba/::1716845089
 config.json::JSON::-1::1716845085::0::1::::<><>::
 plugin.cfg::TextFile::-1::1716844654::0::1::::<><>::
@@ -15,6 +17,66 @@ ColorHelper.gd::GDScript::-1::1716763104::0::1::::ColorHelper<>RefCounted<>::
 ColorPreview.gd::GDScript::-1::1716763104::0::1::::<>EditorPlugin<>::res://addons/ColorPreview/Picker.tscn<>res://addons/ColorPreview/ColorHelper.gd
 Picker.tscn::PackedScene::7946079549344240257::1716763104::0::1::::<><>::
 plugin.cfg::TextFile::-1::1716763104::0::1::::<><>::
+::res://addons/dialogue_manager/::1717068593
+constants.gd::GDScript::-1::1717068592::0::1::::<>Node<>::
+dialogue_label.gd::GDScript::-1::1717068592::0::1::::DialogueLabel<>RichTextLabel<>res://addons/dialogue_manager/assets/icon.svg::
+dialogue_label.tscn::PackedScene::5518490004210093266::1717068592::0::1::::<><>::res://addons/dialogue_manager/dialogue_label.gd
+dialogue_line.gd::GDScript::-1::1717068592::0::1::::DialogueLine<>RefCounted<>::
+dialogue_manager.gd::GDScript::-1::1717068592::0::1::::<>Node<>::res://addons/dialogue_manager/constants.gd<>res://addons/dialogue_manager/utilities/builtins.gd<>res://addons/dialogue_manager/settings.gd<>res://addons/dialogue_manager/dialogue_resource.gd<>res://addons/dialogue_manager/dialogue_line.gd<>res://addons/dialogue_manager/dialogue_response.gd<>res://addons/dialogue_manager/components/parser.gd<>res://addons/dialogue_manager/components/parse_result.gd<>res://addons/dialogue_manager/components/resolved_line_data.gd
+dialogue_reponses_menu.gd::GDScript::-1::1717068592::0::1::::DialogueResponsesMenu<>Container<>res://addons/dialogue_manager/assets/responses_menu.svg::
+dialogue_resource.gd::GDScript::-1::1717068592::0::1::::DialogueResource<>Resource<>res://addons/dialogue_manager/assets/icon.svg::
+dialogue_response.gd::GDScript::-1::1717068592::0::1::::DialogueResponse<>RefCounted<>::res://addons/dialogue_manager/constants.gd
+editor_translation_parser_plugin.gd::GDScript::-1::1717068592::0::1::::<>EditorTranslationParserPlugin<>::
+import_plugin.gd::GDScript::-1::1717068592::0::1::::<>EditorImportPlugin<>::
+plugin.cfg::TextFile::-1::1717068593::0::1::::<><>::
+plugin.gd::GDScript::-1::1717068593::0::1::::<>EditorPlugin<>::
+settings.gd::GDScript::-1::1717068593::0::1::::<>Node<>::res://addons/dialogue_manager/constants.gd<>res://addons/dialogue_manager/test_scene.tscn
+test_scene.gd::GDScript::-1::1717068593::0::1::::BaseDialogueTestScene<>Node2D<>::
+test_scene.tscn::PackedScene::-1::1717068593::0::1::::<><>::res://addons/dialogue_manager/test_scene.gd
+::res://addons/dialogue_manager/assets/::1717068591
+icon.svg::CompressedTexture2D::9148339284877624195::1717068591::1717068591::1::::<><>::
+responses_menu.svg::CompressedTexture2D::8371359403825774630::1717068591::1717068591::1::::<><>::
+update.svg::CompressedTexture2D::9126631778427806641::1717068591::1717068591::1::::<><>::
+::res://addons/dialogue_manager/components/::1717068592
+code_edit.gd::GDScript::-1::1717068591::0::1::::<>CodeEdit<>::
+code_edit.tscn::PackedScene::5379618807048408118::1717068591::0::1::::<><>::res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>res://addons/dialogue_manager/components/code_edit.gd
+code_edit_syntax_highlighter.gd::GDScript::-1::1717068591::0::1::::<>SyntaxHighlighter<>::
+dialogue_cache.gd::GDScript::-1::1717068591::0::1::::<>Node<>::res://addons/dialogue_manager/constants.gd<>res://addons/dialogue_manager/settings.gd<>res://addons/dialogue_manager/components/parse_result.gd
+download_update_panel.gd::GDScript::-1::1717068591::0::1::::<>Control<>::res://addons/dialogue_manager/constants.gd
+download_update_panel.tscn::PackedScene::1130642722554629364::1717068591::0::1::::<><>::res://addons/dialogue_manager/components/download_update_panel.gd<>uid://d3baj6rygkb3f::::res://addons/dialogue_manager/assets/update.svg
+errors_panel.gd::GDScript::-1::1717068591::0::1::::<>HBoxContainer<>::res://addons/dialogue_manager/constants.gd
+errors_panel.tscn::PackedScene::6105315990352960875::1717068591::0::1::::<><>::res://addons/dialogue_manager/components/errors_panel.gd
+files_list.gd::GDScript::-1::1717068591::0::1::::<>VBoxContainer<>::res://addons/dialogue_manager/constants.gd
+files_list.tscn::PackedScene::8113335055803740416::1717068591::0::1::::<><>::res://addons/dialogue_manager/components/files_list.gd<>uid://d3lr2uas6ax8v::::res://addons/dialogue_manager/assets/icon.svg
+find_in_files.gd::GDScript::-1::1717068591::0::1::::<>Control<>::res://addons/dialogue_manager/constants.gd
+find_in_files.tscn::PackedScene::1783514634430556025::1717068591::0::1::::<><>::res://addons/dialogue_manager/components/find_in_files.gd
+parser.gd::GDScript::-1::1717068592::0::1::::DialogueManagerParser<>Object<>::res://addons/dialogue_manager/constants.gd<>res://addons/dialogue_manager/settings.gd<>res://addons/dialogue_manager/components/resolved_line_data.gd<>res://addons/dialogue_manager/components/resolved_tag_data.gd<>res://addons/dialogue_manager/components/parse_result.gd<>res://addons/dialogue_manager/components/parser.gd
+parse_result.gd::GDScript::-1::1717068591::0::1::::DialogueManagerParseResult<>RefCounted<>::
+resolved_line_data.gd::GDScript::-1::1717068592::0::1::::<>RefCounted<>::
+resolved_tag_data.gd::GDScript::-1::1717068592::0::1::::<>RefCounted<>::
+search_and_replace.gd::GDScript::-1::1717068592::0::1::::<>VBoxContainer<>::res://addons/dialogue_manager/constants.gd
+search_and_replace.tscn::PackedScene::458254375860855630::1717068592::0::1::::<><>::res://addons/dialogue_manager/components/search_and_replace.gd
+title_list.gd::GDScript::-1::1717068592::0::1::::<>VBoxContainer<>::res://addons/dialogue_manager/constants.gd
+title_list.tscn::PackedScene::6134415340044566558::1717068592::0::1::::<><>::res://addons/dialogue_manager/components/title_list.gd
+update_button.gd::GDScript::-1::1717068592::0::1::::<>Button<>::res://addons/dialogue_manager/constants.gd<>res://addons/dialogue_manager/settings.gd
+update_button.tscn::PackedScene::5825087957514786930::1717068592::0::1::::<><>::res://addons/dialogue_manager/components/update_button.gd<>uid://qdxrxv3c3hxk::::res://addons/dialogue_manager/components/download_update_panel.tscn
+::res://addons/dialogue_manager/example_balloon/::1717068702
+example_balloon.gd::GDScript::-1::1717068702::0::1::::<>CanvasLayer<>::res://addons/dialogue_manager/dialogue_label.gd<>res://addons/dialogue_manager/dialogue_reponses_menu.gd<>res://addons/dialogue_manager/dialogue_resource.gd<>res://addons/dialogue_manager/dialogue_line.gd<>res://addons/dialogue_manager/dialogue_response.gd
+example_balloon.tscn::PackedScene::2304415056852043862::1717068592::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
+small_example_balloon.tscn::PackedScene::1883859960814163368::1717068592::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
+::res://addons/dialogue_manager/l10n/::1717068593
+en.mo::Translation::-1::1717068592::0::1::::<><>::
+en.po::Translation::-1::1717068592::0::1::::<><>::
+es.po::Translation::-1::1717068592::0::1::::<><>::
+zh.po::Translation::-1::1717068593::0::1::::<><>::
+zh_TW.po::Translation::-1::1717068593::0::1::::<><>::
+::res://addons/dialogue_manager/utilities/::1717068593
+builtins.gd::GDScript::-1::1717068593::0::1::::<>Object<>::res://addons/dialogue_manager/constants.gd
+::res://addons/dialogue_manager/views/::1717068593
+main_view.gd::GDScript::-1::1717068593::0::1::::<>Control<>::
+main_view.tscn::PackedScene::4884668666408697448::1717068593::0::1::::<><>::res://addons/dialogue_manager/views/main_view.gd<>uid://civ6shmka5e8u::::res://addons/dialogue_manager/components/code_edit.tscn<>uid://dnufpcdrreva3::::res://addons/dialogue_manager/components/files_list.tscn<>uid://ctns6ouwwd68i::::res://addons/dialogue_manager/components/title_list.tscn<>uid://co8yl23idiwbi::::res://addons/dialogue_manager/components/update_button.tscn<>uid://gr8nakpbrhby::::res://addons/dialogue_manager/components/search_and_replace.tscn<>uid://cs8pwrxr5vxix::::res://addons/dialogue_manager/components/errors_panel.tscn<>res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>uid://cpg4lg1r3ff6m::::res://addons/dialogue_manager/views/settings_view.tscn<>uid://0n7hwviyyly4::::res://addons/dialogue_manager/components/find_in_files.tscn
+settings_view.gd::GDScript::-1::1717068593::0::1::::<>TabContainer<>::
+settings_view.tscn::PackedScene::5839841081119266502::1717068593::0::1::::<><>::res://addons/dialogue_manager/views/settings_view.gd
 ::res://addons/godot_owl/::1716763104
 godot_owl.gd::GDScript::-1::1716653750::0::1::::<>EditorPlugin<>::res://addons/godot_owl/module.tscn
 icon.png::CompressedTexture2D::7678547903667966919::1716653750::1716653750::1::::<><>::
@@ -120,7 +182,24 @@ start.tscn::PackedScene::2692091061628401710::1716763104::0::1::::<><>::res://ad
 autosize_label.gd::GDScript::-1::1716763104::0::1::::<>Label<>::
 task.gd::GDScript::-1::1716763104::0::1::::<>MarginContainer<>::res://addons/kanban_tasks/plugin_singleton/singletons.gd<>res://addons/kanban_tasks/view/shortcuts.gd<>res://addons/kanban_tasks/view/edit_context.gd<>res://addons/kanban_tasks/view/filter.gd<>res://addons/kanban_tasks/data/board.gd<>res://addons/kanban_tasks/edit_label/edit_label.gd<>res://addons/kanban_tasks/expand_button/expand_button.gd<>res://addons/kanban_tasks/data/task.gd<>res://addons/kanban_tasks/view/details/details.gd<>res://addons/kanban_tasks/view/details/step_holder.gd<>res://addons/kanban_tasks/view/tooltip.gd<>res://addons/kanban_tasks/view/category/category_popup_menu.gd
 task.tscn::PackedScene::5508831843714498441::1716763104::0::1::::<><>::res://addons/kanban_tasks/view/task/task.gd<>res://addons/kanban_tasks/edit_label/edit_label.gd<>res://addons/kanban_tasks/view/task/autosize_label.gd<>uid://bwi22eyrmeeet::::res://addons/kanban_tasks/view/details/details.tscn<>uid://dwjg5vyxx4g48::::res://addons/kanban_tasks/view/details/step_holder.tscn<>res://addons/kanban_tasks/expand_button/expand_button.gd
-::res://addons/resources_spreadsheet_view/::1717025852
+::res://addons/quest_system/::1717115856
+active_pool.gd::GDScript::-1::1717115855::0::1::::ActiveQuestPool<>BaseQuestPool<>::res://addons/quest_system/base_quest_pool.gd<>res://addons/quest_system/quest_resource.gd
+available_pool.gd::GDScript::-1::1717115856::0::1::::AvailableQuestPool<>BaseQuestPool<>::res://addons/quest_system/base_quest_pool.gd
+base_quest_pool.gd::GDScript::-1::1717115856::0::1::::BaseQuestPool<>Node<>::res://addons/quest_system/quest_resource.gd
+completed_pool.gd::GDScript::-1::1717115856::0::1::::CompletedQuestPool<>BaseQuestPool<>::res://addons/quest_system/base_quest_pool.gd
+plugin.cfg::TextFile::-1::1717115856::0::1::::<><>::
+plugin.gd::GDScript::-1::1717115856::0::1::::<>EditorPlugin<>::res://addons/quest_system/translation_plugin.gd<>res://addons/quest_system/settings.gd
+quest_manager.gd::GDScript::-1::1717115856::0::1::::<>Node<>::res://addons/quest_system/quest_resource.gd<>res://addons/quest_system/available_pool.gd<>res://addons/quest_system/active_pool.gd<>res://addons/quest_system/completed_pool.gd<>res://addons/quest_system/settings.gd<>res://addons/quest_system/base_quest_pool.gd
+quest_resource.gd::GDScript::-1::1717115856::0::1::::Quest<>Resource<>res://addons/quest_system/assets/quest_resource.svg::
+settings.gd::GDScript::-1::1717115856::0::1::::QuestSystemSettings<>RefCounted<>::
+translation_plugin.gd::GDScript::-1::1717115856::0::1::::<>EditorTranslationParserPlugin<>::res://addons/quest_system/quest_resource.gd
+::res://addons/quest_system/assets/::1717115855
+quest_resource.svg::CompressedTexture2D::6709963747693466442::1717115855::1717115855::1::::<><>::
+update.svg::CompressedTexture2D::6358970041606497925::1717115855::1717115855::1::::<><>::
+::res://addons/quest_system/views/::1717115856
+update_dialog.gd::GDScript::-1::1717115856::0::1::::<>AcceptDialog<>::
+update_dialog.tscn::PackedScene::7423343966737306925::1717115856::0::1::::<><>::res://addons/quest_system/views/update_dialog.gd<>uid://cwulkprc5aq8d::::res://addons/quest_system/assets/update.svg
+::res://addons/resources_spreadsheet_view/::1717147076
 editor_color_setter.gd::GDScript::-1::1716844126::0::1::::<>Control<>::
 editor_icon_button.gd::GDScript::-1::1716844126::0::1::::<>Button<>::
 editor_view.gd::GDScript::-1::1716844126::0::1::::<>Control<>::
@@ -128,7 +207,7 @@ editor_view.tscn::PackedScene::1359036348667950850::1716844126::0::1::::<><>::re
 LICENSE.md::TextFile::-1::1716844126::0::1::::<><>::
 plugin.cfg::TextFile::-1::1716844127::0::1::::<><>::
 plugin.gd::GDScript::-1::1716844127::0::1::::<>EditorPlugin<>::
-saved_state.json::JSON::-1::1717025852::0::1::::<><>::
+saved_state.json::JSON::-1::1717147076::0::1::::<><>::
 settings_grid.gd::GDScript::-1::1716844127::0::1::::<>GridContainer<>::
 settings_grid.tscn::PackedScene::226255947765552484::1716844127::0::1::::<><>::res://addons/resources_spreadsheet_view/settings_grid.gd
 text_editing_utils.gd::GDScript::-1::1716844127::0::1::::<>RefCounted<>::
@@ -373,6 +452,8 @@ crafting_system.tscn::PackedScene::3792325810626844578::1716837349::0::1::::<><>
 iron_sword_recipe.tres::Resource/Resource::207813559248394673::1716763104::0::1::::<><>::uid://bjasbo6oafgyj::::res://Item/Items/ItemTypes/Equip/Iron_Sword.tres<>res://Crafting/CraftingRecipeRequirement.gd<>res://Crafting/CraftingRecipe.gd<>uid://b6ic3vp866s3u::::res://Item/Items/ItemTypes/Materials/Iron_Bar.tres<>uid://b46vhhfxnb566::::res://Item/Items/ItemTypes/Materials/Stick.tres
 sticks_recipe.tres::Resource/Resource::60639435155426604::1716763104::0::1::::<><>::uid://b46vhhfxnb566::::res://Item/Items/ItemTypes/Materials/Stick.tres<>res://Crafting/CraftingRecipeRequirement.gd<>res://Crafting/CraftingRecipe.gd<>uid://c852d6k1bbbvd::::res://Item/Items/ItemTypes/Materials/Logs.tres
 wooden_sword_recipe.tres::Resource/Resource::8709047969203367316::1716763104::0::1::::<><>::res://Crafting/CraftingRecipeRequirement.gd<>uid://dkkdjlafqgnsw::::res://Item/Items/ItemTypes/Equip/Wooden_Sword.tres<>res://Crafting/CraftingRecipe.gd<>uid://b46vhhfxnb566::::res://Item/Items/ItemTypes/Materials/Stick.tres<>uid://b6ic3vp866s3u::::res://Item/Items/ItemTypes/Materials/Iron_Bar.tres
+::res://Dialogue/::1717112647
+Test.dialogue::Resource::1948590537149688949::1717112647::1717112647::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
 ::res://HarvestingNodes/::1716891621
 test_resource_node.tscn::PackedScene::8006173640722848866::1716891621::0::1::::<><>::res://HarvestingNodes/ResourceNodes/ResourceNodeScripts/ResourceNode.gd<>uid://c35tthuxfsisj::::res://HarvestingNodes/ResourceNodes/ResourceNodeTypes/CopperNode.tres<>uid://ch18c0haji64j::::res://Art/ResourceNodeArt/TreeObject.png
 ::res://HarvestingNodes/ResourceNodes/::1716845222
@@ -385,31 +466,32 @@ ResourceNode.gd::GDScript::-1::1716977473::0::1::::ResourceNode<>Node2D<>::res:/
 ::res://HarvestingNodes/ResourceNodes/ResourceNodeTypes/::1716850444
 CopperNode.tres::Resource/Resource::6801248274431611085::1716850444::0::1::::<><>::uid://c852d6k1bbbvd::::res://Item/Items/ItemTypes/Materials/Logs.tres<>res://HarvestingNodes/ResourceNodes/ResourceNodeScripts/ResourceData.gd
 ::res://Inventory/::1716763104
-::res://Inventory/Inventory Resources/::1717023451
-Inventory.tres::Resource/Resource::2667457234754635561::1717023451::0::1::::<><>::res://Inventory/InventoryScripts/Inventory_Data.gd<>res://Inventory/InventoryScripts/Slot_Data.gd<>uid://dfhpuk3umw5ic::::res://Item/Currency/Gold_Coin.tres
-Inventory_Data_Equip.tres::Resource/Resource::7766519911545753192::1717023451::0::1::::<><>::res://Inventory/InventoryScripts/Inventory_Data_Equip.gd<>uid://c7xngyccv0uhg::::res://Item/Items/ItemTypes/Equip/Accessory/Test_Base_Accessory.tres<>res://Inventory/InventoryScripts/Slot_Data.gd<>uid://boagntdt4r56g::::res://Item/Items/ItemTypes/Equip/Chest/Test_Base_Chestplate.tres<>uid://b307y256tpr88::::res://Item/Items/ItemTypes/Equip/Head/Test_Base_Helm.tres<>uid://d2jug7nhl146m::::res://Item/Items/ItemTypes/Equip/Legs/Test_Base_Leggings.tres<>uid://ch1ufjm7mo43e::::res://Item/Items/ItemTypes/Equip/Main/Test_Base_Sword.tres
-Inventory_Data_Hotbar.tres::Resource/Resource::7048096329866520356::1717023451::0::1::::<><>::res://Inventory/InventoryScripts/Inventory_Data_Hotbar.gd<>res://Inventory/InventoryScripts/Slot_Data.gd
-::res://Inventory/InventoryScenes/::1717023851
+::res://Inventory/Inventory Resources/::1717108804
+Inventory.tres::Resource/InventoryData::2667457234754635561::1717108804::0::1::::<><>::res://Inventory/InventoryScripts/Inventory_Data.gd<>res://Inventory/InventoryScripts/Slot_Data.gd<>uid://dfhpuk3umw5ic::::res://Item/Currency/Gold_Coin.tres
+Inventory_Data_Equip.tres::Resource/InventoryDataEquip::7766519911545753192::1717108804::0::1::::<><>::res://Inventory/InventoryScripts/Inventory_Data_Equip.gd<>uid://c7xngyccv0uhg::::res://Item/Items/ItemTypes/Equip/Accessory/Test_Base_Accessory.tres<>res://Inventory/InventoryScripts/Slot_Data.gd<>uid://boagntdt4r56g::::res://Item/Items/ItemTypes/Equip/Chest/Test_Base_Chestplate.tres<>uid://b307y256tpr88::::res://Item/Items/ItemTypes/Equip/Head/Test_Base_Helm.tres<>uid://d2jug7nhl146m::::res://Item/Items/ItemTypes/Equip/Legs/Test_Base_Leggings.tres<>uid://ch1ufjm7mo43e::::res://Item/Items/ItemTypes/Equip/Main/Test_Base_Sword.tres
+Inventory_Data_Hotbar.tres::Resource/InventoryDataHotbar::7048096329866520356::1717108804::0::1::::<><>::res://Inventory/InventoryScripts/Inventory_Data_Hotbar.gd<>res://Inventory/InventoryScripts/Slot_Data.gd
+::res://Inventory/InventoryScenes/::1717115201
 EquipInventory.tscn::PackedScene::2654938941109602770::1716974293::0::1::::<><>::uid://bwe48eo60ijh8::::res://Inventory/InventoryScenes/Inventory.tscn<>uid://xgl7ahpfy33l::::res://Inventory/InventoryScenes/Slot.tscn
 ExternalInventory.tscn::PackedScene::2065330005035257480::1716976316::0::1::::<><>::res://Inventory/InventoryScripts/Inventory.gd<>uid://cb6jcnauc0u7j::::res://Art/UI Art/InvUISprites/InvBG.png
-HotBarInventory.tscn::PackedScene::3478346604773539600::1716763104::0::1::::<><>::res://Inventory/InventoryScripts/Inventory.gd<>uid://c86yl4dqkvqy1::::res://Art/UI Art/InvUISprites/hotbar_bg.png
+HotBarInventory.tscn::PackedScene::3478346604773539600::1717062750::0::1::::<><>::res://Inventory/InventoryScripts/Inventory.gd<>uid://c86yl4dqkvqy1::::res://Art/UI Art/InvUISprites/hotbar_bg.png
 Inventory.tscn::PackedScene::3940652711898035683::1716974293::0::1::::<><>::res://Inventory/InventoryScripts/Inventory.gd<>uid://cb6jcnauc0u7j::::res://Art/UI Art/InvUISprites/InvBG.png
-inventory_ui.tscn::PackedScene::7268225271893667967::1717023851::0::1::::<><>::uid://d20a5atje1klx::::res://Themes/FontTheme.tres<>res://Inventory/InventoryScripts/Inventory_Interface.gd<>uid://bwe48eo60ijh8::::res://Inventory/InventoryScenes/Inventory.tscn<>uid://xgl7ahpfy33l::::res://Inventory/InventoryScenes/Slot.tscn<>uid://bd3cprxbqi86q::::res://Inventory/InventoryScenes/EquipInventory.tscn<>uid://4opxibybt3ui::::res://Inventory/InventoryScenes/ExternalInventory.tscn<>uid://bps64iuxhpw05::::res://Inventory/InventoryScenes/HotBarInventory.tscn
+inventory_ui.tscn::PackedScene::7268225271893667967::1717115201::0::1::::<><>::uid://d20a5atje1klx::::res://Themes/FontTheme.tres<>res://Inventory/InventoryScripts/Inventory_Interface.gd<>uid://bwe48eo60ijh8::::res://Inventory/InventoryScenes/Inventory.tscn<>uid://xgl7ahpfy33l::::res://Inventory/InventoryScenes/Slot.tscn<>uid://bd3cprxbqi86q::::res://Inventory/InventoryScenes/EquipInventory.tscn<>uid://4opxibybt3ui::::res://Inventory/InventoryScenes/ExternalInventory.tscn<>uid://bps64iuxhpw05::::res://Inventory/InventoryScenes/HotBarInventory.tscn<>res://Inventory/InventoryScenes/player_gold_label.gd
+player_gold_label.gd::GDScript::-1::1717063179::0::1::::<>Label<>::res://Inventory/InventoryScripts/Inventory_Data.gd<>res://Objects/Player/Player_Manager.gd
 Slot.tscn::PackedScene::1627454714027311843::1716763104::0::1::::<><>::res://Inventory/InventoryScripts/Slot.gd<>uid://dt26bel5tu3h5::::res://Art/UI Art/InvUISprites/slotBG.png
-::res://Inventory/InventoryScripts/::1716977473
+::res://Inventory/InventoryScripts/::1717112557
 HotBarInventory.gd::GDScript::-1::1716763104::0::1::::<>PanelContainer<>::res://Inventory/InventoryScenes/Slot.tscn<>res://Inventory/InventoryScripts/Inventory_Data.gd
-Inventory.gd::GDScript::-1::1716763104::0::1::::<>PanelContainer<>::res://Inventory/InventoryScenes/Slot.tscn<>res://Inventory/InventoryScripts/Inventory_Data.gd
-Inventory_Data.gd::GDScript::-1::1716941214::0::1::::InventoryData<>Resource<>::res://Inventory/InventoryScripts/Inventory_Data.gd<>res://Inventory/InventoryScripts/Slot_Data.gd<>res://Item/Items/ItemTypes/Consumables/Item_Data_Consumable.gd<>res://Objects/Player/Player_Manager.gd
+Inventory.gd::GDScript::-1::1717061757::0::1::::<>PanelContainer<>::res://Inventory/InventoryScenes/Slot.tscn<>res://Inventory/InventoryScripts/Inventory_Data.gd
+Inventory_Data.gd::GDScript::-1::1717062860::0::1::::InventoryData<>Resource<>::res://Inventory/InventoryScripts/Inventory_Data.gd<>res://Inventory/InventoryScripts/Slot_Data.gd<>res://Item/Items/ItemTypes/Consumables/Item_Data_Consumable.gd<>res://Objects/Player/Player_Manager.gd
 Inventory_Data_Equip.gd::GDScript::-1::1716763104::0::1::::InventoryDataEquip<>InventoryData<>::res://Inventory/InventoryScripts/Inventory_Data.gd<>res://Inventory/InventoryScripts/Slot_Data.gd<>res://Item/Items/ItemTypes/Equip/Item_Data_Equip.gd
 Inventory_Data_Hotbar.gd::GDScript::-1::1716763104::0::1::::InventoryDataHotbar<>InventoryData<>::res://Inventory/InventoryScripts/Inventory_Data.gd<>res://Inventory/InventoryScripts/Slot_Data.gd<>res://Item/Items/ItemTypes/Consumables/Item_Data_Consumable.gd<>res://Objects/Player/Player_Manager.gd
-Inventory_Interface.gd::GDScript::-1::1716976316::0::1::::<>Control<>::res://Inventory/InventoryScripts/Slot_Data.gd<>res://Inventory/InventoryScripts/Inventory_Data.gd
+Inventory_Interface.gd::GDScript::-1::1717112557::0::1::::<>Control<>::res://Inventory/InventoryScripts/Slot_Data.gd<>res://Inventory/InventoryScripts/Inventory_Data.gd<>res://Objects/Player/Player_Manager.gd
 Slot.gd::GDScript::-1::1716977473::0::1::::<>PanelContainer<>::res://Inventory/InventoryScripts/Slot_Data.gd
 Slot_Data.gd::GDScript::-1::1716941081::0::1::::SlotData<>Resource<>::res://Item/Item_Data.gd<>res://Inventory/InventoryScripts/Slot_Data.gd
-::res://Item/::1716941013
+::res://Item/::1717062100
 ItemAtlas.tres::AtlasTexture::4918482130048878882::1716845738::0::1::::<><>::
-Item_Data.gd::GDScript::-1::1716941013::0::1::::ItemData<>Resource<>::
-::res://Item/Currency/::1717023451
-Gold_Coin.tres::Resource/Resource::7525603953731147642::1717023451::0::1::::<><>::res://Item/Item_Data.gd<>uid://5b0aqh75gyr4::::res://Item/ItemAtlas'/ItemAtlas'Sprites/16x16/Loot and Treasure.png
+Item_Data.gd::GDScript::-1::1717062100::0::1::::ItemData<>Resource<>::
+::res://Item/Currency/::1717108804
+Gold_Coin.tres::Resource/ItemData::7525603953731147642::1717108804::0::1::::<><>::res://Item/Item_Data.gd<>uid://5b0aqh75gyr4::::res://Item/ItemAtlas'/ItemAtlas'Sprites/16x16/Loot and Treasure.png
 ::res://Item/ItemAtlas'/::1716936989
 Chest_Atlas.tres::AtlasTexture::4453124993518176439::1716936989::0::1::::<><>::
 Item_Atlas1.tres::AtlasTexture::3426510706714159891::1716894967::0::1::::<><>::uid://5b0aqh75gyr4::::res://Item/ItemAtlas'/ItemAtlas'Sprites/16x16/Loot and Treasure.png
@@ -434,45 +516,45 @@ Item_Data_Consumable.gd::GDScript::-1::1716609679::0::1::::ItemDataConsumable<>I
 Iron_Sword.tres::Resource/Resource::3019215751951232889::1716844525::0::1::::<><>::res://Item/Items/ItemTypes/Equip/Item_Data_Equip.gd
 Item_Data_Equip.gd::GDScript::-1::1716638892::0::1::::ItemDataEquip<>ItemData<>::res://Item/Item_Data.gd
 Wooden_Sword.tres::Resource/Resource::7881993066129329790::1716844525::0::1::::<><>::res://Item/Items/ItemTypes/Equip/Item_Data_Equip.gd
-::res://Item/Items/ItemTypes/Equip/Accessory/::1717023451
+::res://Item/Items/ItemTypes/Equip/Accessory/::1717114415
 Equip_Data_Accessory.gd::GDScript::-1::1716609679::0::1::::EquipDataAccessory<>ItemDataEquip<>::res://Item/Items/ItemTypes/Equip/Item_Data_Equip.gd
-Test_Base_Accessory.tres::Resource/Resource::7067166351585958812::1717023451::0::1::::<><>::res://Item/Items/ItemTypes/Equip/Accessory/Equip_Data_Accessory.gd<>uid://5b0aqh75gyr4::::res://Item/ItemAtlas'/ItemAtlas'Sprites/16x16/Loot and Treasure.png
-::res://Item/Items/ItemTypes/Equip/Chest/::1717023451
+Test_Base_Accessory.tres::Resource/EquipDataAccessory::7067166351585958812::1717114415::0::1::::<><>::res://Item/Items/ItemTypes/Equip/Accessory/Equip_Data_Accessory.gd<>uid://5b0aqh75gyr4::::res://Item/ItemAtlas'/ItemAtlas'Sprites/16x16/Loot and Treasure.png
+::res://Item/Items/ItemTypes/Equip/Chest/::1717108804
 Equip_Data_Chest.gd::GDScript::-1::1716609679::0::1::::EquipDataChest<>ItemDataEquip<>::res://Item/Items/ItemTypes/Equip/Item_Data_Equip.gd
-Test_Base_Chestplate.tres::Resource/Resource::3369453015383713556::1717023451::0::1::::<><>::res://Item/Items/ItemTypes/Equip/Chest/Equip_Data_Chest.gd
-::res://Item/Items/ItemTypes/Equip/Head/::1717023451
+Test_Base_Chestplate.tres::Resource/EquipDataChest::3369453015383713556::1717108804::0::1::::<><>::res://Item/Items/ItemTypes/Equip/Chest/Equip_Data_Chest.gd
+::res://Item/Items/ItemTypes/Equip/Head/::1717108804
 Equip_Data_Head.gd::GDScript::-1::1716609679::0::1::::EquipDataHead<>ItemDataEquip<>::res://Item/Items/ItemTypes/Equip/Item_Data_Equip.gd
-Test_Base_Helm.tres::Resource/Resource::4405305018140831823::1717023451::0::1::::<><>::res://Item/Items/ItemTypes/Equip/Head/Equip_Data_Head.gd
-::res://Item/Items/ItemTypes/Equip/Legs/::1717023451
+Test_Base_Helm.tres::Resource/EquipDataHead::4405305018140831823::1717108804::0::1::::<><>::res://Item/Items/ItemTypes/Equip/Head/Equip_Data_Head.gd
+::res://Item/Items/ItemTypes/Equip/Legs/::1717108804
 Equip_Data_Legs.gd::GDScript::-1::1716609679::0::1::::EquipDataLegs<>ItemDataEquip<>::res://Item/Items/ItemTypes/Equip/Item_Data_Equip.gd
-Test_Base_Leggings.tres::Resource/Resource::9074166984874940350::1717023451::0::1::::<><>::res://Item/Items/ItemTypes/Equip/Legs/Equip_Data_Legs.gd
-::res://Item/Items/ItemTypes/Equip/Main/::1717023451
+Test_Base_Leggings.tres::Resource/EquipDataLegs::9074166984874940350::1717108804::0::1::::<><>::res://Item/Items/ItemTypes/Equip/Legs/Equip_Data_Legs.gd
+::res://Item/Items/ItemTypes/Equip/Main/::1717108804
 Equip_Data_Main.gd::GDScript::-1::1716609679::0::1::::EquipDataMain<>ItemDataEquip<>::res://Item/Items/ItemTypes/Equip/Item_Data_Equip.gd
-Test_Base_Sword.tres::Resource/Resource::5319060856001195360::1717023451::0::1::::<><>::res://Item/Items/ItemTypes/Equip/Main/Equip_Data_Main.gd
+Test_Base_Sword.tres::Resource/EquipDataMain::5319060856001195360::1717108804::0::1::::<><>::res://Item/Items/ItemTypes/Equip/Main/Equip_Data_Main.gd
 ::res://Item/Items/ItemTypes/Equip/Secondary/::1716844525
 Equip_Data_Secondary.gd::GDScript::-1::1716609679::0::1::::EquipDataSecondary<>ItemDataEquip<>::res://Item/Items/ItemTypes/Equip/Item_Data_Equip.gd
 Test_Base_Shield.tres::Resource/Resource::7220286979993542752::1716844525::0::1::::<><>::res://Item/Items/ItemTypes/Equip/Secondary/Equip_Data_Secondary.gd
-::res://Item/Items/ItemTypes/Materials/::1717023451
-Iron_Bar.tres::Resource/Resource::4578962422423908060::1716844525::0::1::::<><>::res://Item/Item_Data.gd<>uid://5b0aqh75gyr4::::res://Item/ItemAtlas'/ItemAtlas'Sprites/16x16/Loot and Treasure.png
-Logs.tres::Resource/Resource::7152650901104070441::1717023451::0::1::::<><>::res://Item/Item_Data.gd<>uid://5b0aqh75gyr4::::res://Item/ItemAtlas'/ItemAtlas'Sprites/16x16/Loot and Treasure.png
+::res://Item/Items/ItemTypes/Materials/::1717108804
+Iron_Bar.tres::Resource/ItemData::4578962422423908060::1717108804::0::1::::<><>::res://Item/Item_Data.gd<>uid://5b0aqh75gyr4::::res://Item/ItemAtlas'/ItemAtlas'Sprites/16x16/Loot and Treasure.png
+Logs.tres::Resource/ItemData::7152650901104070441::1717108804::0::1::::<><>::res://Item/Item_Data.gd<>uid://5b0aqh75gyr4::::res://Item/ItemAtlas'/ItemAtlas'Sprites/16x16/Loot and Treasure.png
 Stick.tres::Resource/Resource::4487180793427258541::1716844525::0::1::::<><>::res://Item/Item_Data.gd<>uid://5b0aqh75gyr4::::res://Item/ItemAtlas'/ItemAtlas'Sprites/16x16/Loot and Treasure.png
 ::res://Objects/::1716640550
 ::res://Objects/Interactables/::1716979117
 chest.tscn::PackedScene::970553015387223372::1716979117::0::1::::<><>::res://Objects/InteractableScripts/Chest.gd
 ::res://Objects/InteractableScripts/::1716640550
 Chest.gd::GDScript::-1::1716609679::0::1::::<>StaticBody2D<>::res://Inventory/Inventory_Data.gd
-::res://Objects/Player/::1717023851
-Player.gd::GDScript::-1::1716978358::0::1::::Player<>CharacterBody2D<>::res://Inventory/InventoryScripts/Inventory_Data.gd<>res://Inventory/InventoryScripts/Inventory_Data_Equip.gd<>res://Inventory/InventoryScripts/Inventory_Data_Hotbar.gd
-Player.tscn::PackedScene::4932919055033233324::1717023851::0::1::::<><>::uid://c11omk4dyrwg7::::res://Art/Character v.2/NewCharAnims/CharIdles.png<>res://Objects/Player/Player.gd
-Player_Manager.gd::GDScript::-1::1716941014::0::1::::<>Node<>::res://Skills/SkillScripts/PlayerSkills.gd<>res://Inventory/InventoryScripts/Slot_Data.gd
-::res://Scenes/::1717023851
-actionable.gd::GDScript::-1::1716979425::0::1::::<>Area2D<>::
+::res://Objects/Player/::1717115201
+Player.gd::GDScript::-1::1717113977::0::1::::Player<>CharacterBody2D<>::res://Inventory/InventoryScripts/Inventory_Data.gd<>res://Inventory/InventoryScripts/Inventory_Data_Equip.gd<>res://Inventory/InventoryScripts/Inventory_Data_Hotbar.gd
+Player.tscn::PackedScene::4932919055033233324::1717115201::0::1::::<><>::uid://c11omk4dyrwg7::::res://Art/Character v.2/NewCharAnims/CharIdles.png<>res://Objects/Player/Player.gd
+Player_Manager.gd::GDScript::-1::1717062844::0::1::::<>Node<>::res://Skills/SkillScripts/PlayerSkills.gd<>res://Inventory/InventoryScripts/Slot_Data.gd
+::res://Scenes/::1717115201
+actionable.gd::GDScript::-1::1717112923::0::1::::<>Area2D<>::
 actionable.tscn::PackedScene::2272807476506835715::1717023851::0::1::::<><>::res://Scenes/actionable.gd
 Camera2D.gd::GDScript::-1::1716609680::0::1::::<>Camera2D<>::
-world.gd::GDScript::-1::1716941499::0::1::::<>Node2D<>::
-world.tscn::PackedScene::5843714428282428657::1717023628::0::1::::<><>::
+world.gd::GDScript::-1::1717114254::0::1::::<>Node2D<>::res://Item/Item_Data.gd<>res://Item/Items/ItemTypes/Materials/Iron_Bar.tres<>res://Inventory/InventoryScripts/Slot_Data.gd<>res://Objects/Player/Player_Manager.gd
+world.tscn::PackedScene::5843714428282428657::1717115201::0::1::::<><>::res://Scenes/world.gd<>uid://xs3qvuxf613j::::res://Art/RavenFantastyArtBundle/Raven Fantasy - 2D PixelArt Tileset and Sprites - Green Forest 2/All Tileset/16X16.png<>uid://ccjsprjwex7ye::::res://Objects/Player/Player.tscn<>uid://bubbb1fgvolje::::res://Crafting/crafting_system.tscn<>uid://dbs1uxhxnebv8::::res://Inventory/InventoryScenes/inventory_ui.tscn<>uid://beaevpmksat1j::::res://Inventory/Inventory Resources/Inventory.tres<>uid://dm38e4ivpm81g::::res://test_shop_button.tscn<>res://Scenes/Camera2D.gd<>res://Inventory/InventoryScripts/Inventory_Data.gd<>uid://c7xngyccv0uhg::::res://Item/Items/ItemTypes/Equip/Accessory/Test_Base_Accessory.tres<>res://Inventory/InventoryScripts/Slot_Data.gd<>uid://n3e4prthg1iu::::res://Objects/Interactables/chest.tscn<>uid://diwfpifv1tj6o::::res://Inventory/Inventory Resources/Inventory_Data_Equip.tres<>res://Item/Item_Data.gd<>uid://c7ofd8bhutpdk::::res://Inventory/Inventory Resources/Inventory_Data_Hotbar.tres<>uid://5b0aqh75gyr4::::res://Item/ItemAtlas'/ItemAtlas'Sprites/16x16/Loot and Treasure.png<>uid://dmcirly1uicp3::::res://HarvestingNodes/test_resource_node.tscn<>uid://7m72o8lx4i00::::res://Scenes/actionable.tscn
 ::res://Scripts/::1716753932
-::res://Shops/::1716975225
+::res://Shops/::1717066904
 ::res://Skills/::1716763104
 ::res://Skills/SkillResources/::1716763104
 Mining.tres::Resource/Resource::1988967258961492560::1716763104::0::1::::<><>::res://Skills/SkillScripts/PlayerSkills.gd

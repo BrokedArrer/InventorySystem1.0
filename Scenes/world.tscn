@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=4 uid="uid://cpi0ega0q3ljt"]
+[gd_scene load_steps=27 format=4 uid="uid://cpi0ega0q3ljt"]
 
 [ext_resource type="Script" path="res://Scenes/world.gd" id="1_3t3uk"]
 [ext_resource type="Texture2D" uid="uid://xs3qvuxf613j" path="res://Art/RavenFantastyArtBundle/Raven Fantasy - 2D PixelArt Tileset and Sprites - Green Forest 2/All Tileset/16X16.png" id="1_efucq"]
@@ -6,8 +6,10 @@
 [ext_resource type="PackedScene" uid="uid://bubbb1fgvolje" path="res://Crafting/crafting_system.tscn" id="3_esxns"]
 [ext_resource type="PackedScene" uid="uid://dbs1uxhxnebv8" path="res://Inventory/InventoryScenes/inventory_ui.tscn" id="3_piu1s"]
 [ext_resource type="Resource" uid="uid://beaevpmksat1j" path="res://Inventory/Inventory Resources/Inventory.tres" id="3_t5ivl"]
+[ext_resource type="PackedScene" uid="uid://dm38e4ivpm81g" path="res://test_shop_button.tscn" id="5_asv3k"]
 [ext_resource type="Script" path="res://Scenes/Camera2D.gd" id="6_5qkl7"]
 [ext_resource type="Script" path="res://Inventory/InventoryScripts/Inventory_Data.gd" id="6_h0owe"]
+[ext_resource type="Resource" uid="uid://c7xngyccv0uhg" path="res://Item/Items/ItemTypes/Equip/Accessory/Test_Base_Accessory.tres" id="6_twxox"]
 [ext_resource type="Script" path="res://Inventory/InventoryScripts/Slot_Data.gd" id="8_gbe35"]
 [ext_resource type="PackedScene" uid="uid://n3e4prthg1iu" path="res://Objects/Interactables/chest.tscn" id="8_jdspc"]
 [ext_resource type="Resource" uid="uid://diwfpifv1tj6o" path="res://Inventory/Inventory Resources/Inventory_Data_Equip.tres" id="11_yer75"]
@@ -332,6 +334,11 @@ texture = ExtResource("1_efucq")
 [sub_resource type="TileSet" id="TileSet_eqveq"]
 sources/0 = SubResource("TileSetAtlasSource_30f7p")
 
+[sub_resource type="Resource" id="Resource_hs0p7"]
+script = ExtResource("8_gbe35")
+item_data = ExtResource("6_twxox")
+quantity = 1
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_whj38"]
 atlas = ExtResource("13_c7hw8")
 region = Rect2(31, 0, 16, 16)
@@ -342,6 +349,7 @@ name = "Book"
 description = "a simple book."
 stackable = false
 texture = SubResource("AtlasTexture_whj38")
+gold_value = 1
 type = ""
 rarity = "Common"
 
@@ -383,6 +391,10 @@ metadata/_edit_use_anchors_ = true
 
 [node name="CraftingSystem" parent="InventoryUI" instance=ExtResource("3_esxns")]
 metadata/_edit_use_anchors_ = true
+
+[node name="TestShopButton" parent="InventoryUI" instance=ExtResource("5_asv3k")]
+position = Vector2(480, 40)
+slot = SubResource("Resource_hs0p7")
 
 [node name="Player" parent="." instance=ExtResource("2_3m1vt")]
 position = Vector2(320, 192)

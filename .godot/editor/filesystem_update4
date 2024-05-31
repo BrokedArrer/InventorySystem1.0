@@ -1,1 +1,15 @@
-res://Inventory/InventoryScripts/HotBarInventory.gd
+res://Scenes/world.tscn
+res://Item/Items/ItemTypes/Materials/Iron_Bar.tres
+res://Item/Currency/Gold_Coin.tres
+res://Inventory/Inventory Resources/Inventory.tres
+res://Item/Items/ItemTypes/Equip/Accessory/Test_Base_Accessory.tres
+res://Item/Items/ItemTypes/Equip/Chest/Test_Base_Chestplate.tres
+res://Item/Items/ItemTypes/Equip/Head/Test_Base_Helm.tres
+res://Item/Items/ItemTypes/Equip/Legs/Test_Base_Leggings.tres
+res://Item/Items/ItemTypes/Equip/Main/Test_Base_Sword.tres
+res://Inventory/Inventory Resources/Inventory_Data_Equip.tres
+res://Inventory/Inventory Resources/Inventory_Data_Hotbar.tres
+res://Item/Items/ItemTypes/Materials/Logs.tres
+res://Objects/Player/Player.tscn
+res://Inventory/InventoryScenes/inventory_ui.tscn
+res://test_shop_button.tscn

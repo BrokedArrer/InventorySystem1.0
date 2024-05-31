@@ -15,5 +15,6 @@ name = "Leather Chestplate"
 description = "Some armor made from leather.*TEST ITEM*"
 stackable = false
 texture = SubResource("AtlasTexture_w2ym4")
+gold_value = 1
 type = ""
 rarity = "Common"

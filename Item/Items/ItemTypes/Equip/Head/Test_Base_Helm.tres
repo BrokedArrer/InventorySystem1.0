@@ -15,5 +15,6 @@ name = "Leather Helm"
 description = "A helm made from Leather.*TEST ITEM*"
 stackable = false
 texture = SubResource("AtlasTexture_852jr")
+gold_value = 1
 type = ""
 rarity = "Common"
